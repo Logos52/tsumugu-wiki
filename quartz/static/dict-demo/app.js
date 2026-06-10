@@ -148,12 +148,23 @@
 
   /* ---------- A/B loop waveform (real Serena mp3s; wavesurfer via CDN) ---------- */
   const waves = new Map();
-  async function toggleWave(sent) {
-    const box = sent.querySelector(".wavebox");
+  /* resolve the clip a wavebox should load: explicit data-src, else its sentence's
+     clip, else the nearest voiced ancestor (a narration section / definition). */
+  function waveSrc(box) {
+    if (box.dataset.src) return box.dataset.src;
+    const sent = box.closest(".sent");
+    if (sent) {
+      const z = sent.querySelector(".zh-t");
+      if (z && z.getAttribute("data-audio")) return z.getAttribute("data-audio");
+    }
+    const host = box.closest("[data-audio]");
+    return host ? host.getAttribute("data-audio") : null;
+  }
+  async function toggleWave(box) {
     if (!box) return;
     box.classList.toggle("open");
     if (!box.classList.contains("open") || waves.has(box)) return;
-    const src = sent.querySelector(".zh-t").getAttribute("data-audio");
+    const src = waveSrc(box);
     if (!src) { box.querySelector(".hint").textContent = "Waveform needs the pre-baked Serena clip (pending for this line)."; return; }
     try {
       const WS = (await import("https://unpkg.com/wavesurfer.js@7/dist/wavesurfer.esm.js")).default;
@@ -238,12 +249,18 @@
     document.querySelectorAll(".sec .play").forEach((p) =>
       p.addEventListener("click", (e) => { e.stopPropagation(); stopAll(); playEl(p.closest(".sec")); })
     );
-    // sentence tools
+    // sentence play buttons
     document.querySelectorAll(".sent").forEach((sent) => {
       const pl = sent.querySelector(".sp");
       if (pl) pl.addEventListener("click", () => playSent(sent));
-      const wv = sent.querySelector(".swave");
-      if (wv) wv.addEventListener("click", () => toggleWave(sent));
+    });
+    // every A/B-loop toggle → its nearest wavebox (example sentences, narration
+    // sections, definitions). closest(".sent") wins inside the examples list, so
+    // each sentence keeps its own waveform; section toggles get the section's.
+    document.querySelectorAll(".swave").forEach((wv) => {
+      const host = wv.closest(".sent, .sec, .def, .wavehost");
+      const box = host && host.querySelector(".wavebox");
+      if (box) wv.addEventListener("click", (e) => { e.stopPropagation(); toggleWave(box); });
     });
     const pa = document.getElementById("playAll");
     if (pa) pa.addEventListener("click", playAllSents);

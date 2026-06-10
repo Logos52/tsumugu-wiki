@@ -64,6 +64,12 @@ CLIPS: list[tuple[str, str]] = [
     # 熱鬧 additions
     ("renao-ex-4.mp3", "婚禮辦得很熱鬧，親戚朋友都來了。"),
     ("renao-def-zh.mp3", "人多、又吵又有活力，讓人覺得很開心的樣子。像夜市、廟會、過年的街上那種氣氛。"),
+    # 告 examples (graded easy→medium; surrounding words simpler than the 告 compound)
+    ("gao-ex-0.mp3", "我想告訴你一件事。"),
+    ("gao-ex-1.mp3", "老師告訴我們，明天要考試。"),
+    ("gao-ex-2.mp3", "電視上的廣告太多了。"),
+    ("gao-ex-3.mp3", "我下星期要交一份報告。"),
+    ("gao-ex-4.mp3", "媽媽警告我，不要太晚回家。"),
 ]
 
 

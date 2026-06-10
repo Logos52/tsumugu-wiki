@@ -1,1 +1,5 @@
+# regenerable QA report (qa_demo_audio.py audit) — not source
+_qa_report.json
+# publish log: contains local absolute paths; never commit (leaked once, scrubbed)
 publish.log
+__pycache__/
