@@ -1,3 +1,53 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// ── Tsumugu reading layer (gen annotate) ──────────────────────────────────
+// Per-word status coloring + pure-CSS hover popup (reading · gloss).
+// Words are wrapped at build time: <span class="tsg-w tsg-status-X"
+//   data-r="reading" data-g="gloss">詞</span>. Mirrors the reader app's
+// amber status ramp; uses rgba so it reads on both light and dark themes.
+
+.tsg-w {
+  border-radius: 2px;
+  // smooth the highlight edges around inline text
+  padding: 0 0.02em;
+}
+
+// Highlight ramp — strongest at "new", fading to nothing at l4 / known.
+.tsg-status-new {
+  background: rgba(255, 193, 7, 0.30);
+  box-shadow: inset 0 -0.16em 0 0 rgba(214, 158, 0, 0.9);
+}
+.tsg-status-l1 { background: rgba(255, 193, 7, 0.24); }
+.tsg-status-l2 { background: rgba(255, 193, 7, 0.17); }
+.tsg-status-l3 { background: rgba(255, 193, 7, 0.11); }
+.tsg-status-l4 { background: rgba(255, 193, 7, 0.05); }
+.tsg-status-known { background: transparent; }   // mastered — no highlight
+.tsg-status-ignored { background: transparent; opacity: 0.7; }
+
+// Hover popup — only on words that carry a gloss. Pure CSS, no JS.
+.tsg-w[data-g] {
+  cursor: help;
+  position: relative;
+}
+.tsg-w[data-g]:hover::after {
+  content: attr(data-r) "  " attr(data-g);
+  position: absolute;
+  left: 0;
+  bottom: 1.75em;
+  z-index: 1000;
+  white-space: normal;
+  width: max-content;
+  max-width: 22rem;
+  background: #1f2430;
+  color: #f5f6f8;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: left;
+  padding: 0.45em 0.65em;
+  border-radius: 6px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+  pointer-events: none;
+}
