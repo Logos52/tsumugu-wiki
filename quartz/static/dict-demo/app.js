@@ -187,8 +187,7 @@
     document.querySelectorAll(".fc").forEach((c) => {
       c.addEventListener("click", () => {
         c.classList.add("revealed");
-        const say = c.getAttribute("data-say");
-        if (say) { stopAll(); speakTTS(say, 0.9); }
+        if (c.getAttribute("data-say") || c.getAttribute("data-audio")) { stopAll(); playEl(c); }
       });
     });
   }
