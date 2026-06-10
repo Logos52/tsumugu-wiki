@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>鬧 nào — Tsumugu Encoding Dictionary</title>
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body data-depth="3" data-lead-default="story">
+
+<nav class="nav">
+  <a class="brand" href="index.html"><span class="ko">紡</span>Tsumugu Encoding Dictionary <small>prototype</small></a>
+  <span class="spacer"></span>
+  <button class="pill" id="legendBtn">● colors?</button>
+  <button class="pill" id="playEntry">▶ play entry</button>
+  <button class="pill" id="slowBtn">🐢 slow</button>
+  <button class="pill" id="stopBtn">⏹</button>
+</nav>
+<div class="legend">
+  <span><span class="dot form"></span>形 form — depicts a thing</span>
+  <span><span class="dot meaning"></span>義 meaning — lends its sense</span>
+  <span><span class="dot sound"></span>聲 sound — lends its sound</span>
+  <span><span class="dot empty"></span>空 empty — does no work here (mark or corruption)</span>
+</div>
+
+<div class="wrap">
+  <div class="crumb"><a href="index.html">entries</a> → 鬧 <span style="margin-left:8px;color:var(--story)">· this entry leads with the story — its analysis is honestly unresolved</span></div>
+
+  <div class="head">
+    <div class="glyph" data-play-self data-say="鬧">鬧</div>
+    <div class="meta">
+      <div class="reading"><span class="zy">ㄋㄠˋ</span> nào <button class="play" data-play-self data-say="鬧">🔊</button></div>
+      <div class="tags">noisy; to make a racket · appears in <a href="renao.html">熱鬧</a></div>
+      <div class="compose">鬧 ＝ <span class="c meaning" title="義 — meaning (surface reading)">鬥</span> wrapping <span class="c empty" title="空 — unresolved; possibly corrupted">市</span> <span class="g spec" title="speculative — the surface reading is a folk decomposition; inner element unresolved">⚠</span></div>
+      <div class="controls">
+        <span class="seg">
+          <button data-depth="1">structure</button>
+          <button data-depth="2">+ meanings</button>
+          <button data-depth="3">+ expert</button>
+        </span>
+        <button class="btn" id="studyBtn">📖 study mode</button>
+        <span class="seg">
+          <button data-lead="origin">字源 first</button>
+          <button data-lead="story">故事 first</button>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <div class="duo">
+    <section class="sec card-story" data-d="1" data-study data-speak data-say="想像一個夜市：到處都是人，大家都在喊。鬥，吵架的聲音，包住一個市場。這就是鬧。">
+      <h2><span class="tagchip story">故事</span> STORY <button class="play">🔊</button></h2>
+      <p class="zhline">一個「<strong style="color:var(--meaning)">鬥</strong>」吵架的框，包住一個「<strong style="color:var(--empty)">市</strong>」場 — 滿街的人同時大聲喊。</p>
+      <p style="color:var(--dim)">A frame of <em>quarreling</em> (鬥) wrapped around a <em>market</em> (市): everyone shouting at once. That’s 鬧 — noise with energy in it. Picture the night market from your last reading: steam, vendors yelling, a happy crush of people.</p>
+    </section>
+
+    <section class="sec card-origin" data-d="1" data-study data-speak data-say="字源層：鬧的內部結構還沒有可靠的開放來源定論。表面上看是鬥加市，但這可能是民間說法。我們先標記為待考。">
+      <h2><span class="tagchip origin">字源</span> FORM <button class="play">🔊</button></h2>
+      <p>Honesty layer: the surface reading “鬥 + 市 market” is a <strong>folk decomposition</strong> — convenient, memorable, and historically unverified. Our open sources don’t yet settle what the inner element originally was, so the analysis is tagged <span class="g spec" title="speculative">⚠ speculative</span> until a sourced fill lands. The story above stays useful either way — that’s the point of labeling them separately.<span class="g a" title="authored — pipeline state, not a claim">ⓐ</span></p>
+      <div class="comp meaning">
+        <div class="cg">鬥</div>
+        <div class="fn"><span class="rb meaning">義</span>dòu — fighting, quarreling: the noise idea<small>surface reading; plausibly functional</small></div>
+      </div>
+      <div class="comp empty">
+        <div class="cg">市</div>
+        <div class="fn"><span class="rb empty">空</span>“market” on the surface — original role unresolved <span class="g spec" title="speculative">⚠</span><small>queued for a sourced Expert fill</small></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="sec" data-d="2" data-study data-speak data-say="鬧，吵、熱鬧的鬧。引申為鬧脾氣、鬧笑話。">
+    <h2>MEANINGS <button class="play">🔊</button></h2>
+    <div class="tree">
+      <div class="node"><span class="k">(base)</span><span class="basic"><span class="zh-s">吵；不安靜</span> — noisy; to make a racket</span><span class="common-tag">COMMON</span></div>
+      <div class="node d1"><span class="arrow">→</span><span class="zh-s">鬧脾氣</span> — to act up; to make a scene</div>
+      <div class="node d1"><span class="arrow">→</span><span class="zh-s">熱鬧</span> — <em>good</em>, festive noise (see the word entry)</div>
+      <div class="node d2"><span class="arrow">⇒</span><span class="zh-s">鬧笑話</span> — to make a fool of oneself (noise you didn’t want)</div>
+    </div>
+    <div class="notation">(base) modern base sense · → ⇒ each arrow = one more step of extension</div>
+  </section>
+
+  <section class="sec" data-d="2" data-study>
+    <h2>RELATED — <span style="text-transform:none;letter-spacing:0;color:var(--dim)">the collision this entry exists to fix</span></h2>
+    <div class="rel">
+      <a class="relc" href="renao.html"><span class="rg">熱<span class="shared" style="color:var(--story)">鬧</span></span><span class="rd">rènào</span><span class="why">good noise — festive</span></a>
+      <span class="relc"><span class="rg"><span class="shared" style="color:var(--story)">鬧</span>鐘</span><span class="rd">nàozhōng</span><span class="why">bad noise — alarm clock</span></span>
+      <span class="relc"><span class="rg">安靜</span><span class="rd">ānjìng</span><span class="why">the opposite</span></span>
+    </div>
+    <p style="color:var(--dim);font-size:14px;margin-top:10px">Same 鬧, opposite feelings: 熱鬧 is noise you <em>want</em> (a party, a market); 鬧鐘 is noise on purpose, waking you up. Anchor the contrast, not the characters.</p>
+  </section>
+
+  <section class="sec" data-d="3" data-study data-speak data-say="專家層：待補。內部結構需要開放來源的考證。">
+    <h2>EXPERT — EVOLUTION <button class="play">🔊</button></h2>
+    <p style="color:var(--dim)">Queued for the sourced fill (G3): early attested forms, whether the inner element is original or corrupted, and the comparison set. This section renders empty-state honestly rather than inventing history — the story card above carries the memory load meanwhile.<span class="g spec" title="speculative / pending">⚠</span></p>
+  </section>
+
+  <div class="revealbar"><button class="btn">Reveal next ↓</button></div>
+
+  <div class="note">Voice: pre-baked Qwen3-TTS (Serena) where a clip exists; your browser’s voice otherwise. Grounding marks: ⓢ sourced · ⓐ authored · ⚠ speculative.</div>
+  <div class="foot">Tsumugu Encoding Dictionary — prototype for feedback. Stories are labeled 故事 and optimize for memory, not history; analysis is labeled 字源 and never asserts what the sources don’t support.</div>
+</div>
+</body>
+</html>
