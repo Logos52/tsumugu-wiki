@@ -70,6 +70,7 @@ const config: QuartzConfig = {
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.VocabVoice(),
     ],
     filters: [Plugin.RemoveDrafts()],
     emitters: [

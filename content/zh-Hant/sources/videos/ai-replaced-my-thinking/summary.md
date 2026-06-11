@@ -1,7 +1,7 @@
 ---
 title: "讓 AI 代替我思考七天 — 摘要"
 english_title: "I let AI think for me for 7 days — 95%-CI summary"
-source: https://www.youtube.com/watch?v=_EmMwEIqAwo
+source: ai-replaced-my-thinking
 channel: 小寧子 XNZ
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, xiaoningzi, ai, brain, psychology, comprehensible-input
 
 # 讓 AI 代替我思考七天 — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 1.000**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[ai-replaced-my-thinking-vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=_EmMwEIqAwo); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 1.000**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/ai-replaced-my-thinking/vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=_EmMwEIqAwo); the raw transcript is kept private.
 
 用 AI 真的會讓人變得不會想事情嗎？作者拿自己過了很特別的 7 天：把工作和「想事情」全部交給 AI，每天至少用四個小時，也只看 AI 做出來的影片。7 天前後各檢查一次，看腦子和想事情的能力會不會變差。開始前，她先去給醫生看了自己的腦子——醫生說很健康，裡面一直都在動；又做了 36 題那種「看幾個東西，想出下一個應該是什麼」的題，對了 35 題。
 
@@ -45,4 +45,4 @@ tags: [summary, zh-Hant, xiaoningzi, ai, brain, psychology, comprehensible-input
 | **大綱** | ㄉㄚˋ ㄍㄤ | outline (of a piece of work) |
 | **甲方** | ㄐㄧㄚˇ ㄈㄤ | client; "Party A" (in a contract) |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[ai-replaced-my-thinking-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/ai-replaced-my-thinking/vocab]]**.

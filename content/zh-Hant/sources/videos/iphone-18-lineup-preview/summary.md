@@ -1,7 +1,7 @@
 ---
 title: "今年的 iPhone，你需要知道的一切 — 摘要"
 english_title: "This year's iPhones (Ultra/Fold, 18 Pro) — 95%-CI summary"
-source: https://www.youtube.com/watch?v=4Lhkx1wnEDE
+source: iphone-18-lineup-preview
 channel: 小寧子 XNZ
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, xiaoningzi, tech, apple, iphone, hardware, comprehensib
 
 # 今年的 iPhone，你需要知道的一切 — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 1.000**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[iphone-18-lineup-preview-vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=4Lhkx1wnEDE); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 1.000**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/iphone-18-lineup-preview/vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=4Lhkx1wnEDE); the raw transcript is kept private.
 
 今年的 iPhone 很不一樣：沒有普通的 iPhone 18。Apple 第一次把一年的手機分成兩次出：今年只出 Pro，和第一支可以像書一樣打開的 iPhone，叫 iPhone Ultra，都很貴；普通的 iPhone 18 要等到 2027 年才出，而且跟 17 比也沒什麼變化。作者說，如果你本來想買 iPhone 18，不如去買變便宜的 iPhone 17，比較好。
 
@@ -45,4 +45,4 @@ iPhone Ultra 是今年最大的新聞。很多人覺得它會改變大家對「�
 | **輕奢** | ㄑㄧㄥ ㄕㄜ | "light luxury"; affordable luxury |
 | **塵埃落定** | ㄔㄣˊ ㄞ ㄌㄨㄛˋ ㄉㄧㄥˋ | the dust has settled |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[iphone-18-lineup-preview-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/iphone-18-lineup-preview/vocab]]**.

@@ -1,7 +1,7 @@
 ---
 title: "外國人與中國人的友誼觀 — 深入詞彙"
 english_title: "Why Chinese and Foreigners View Friendship Differently — vocabulary deep dive"
-source: https://www.youtube.com/watch?v=2idX7w0gs4k
+source: why-friendship-differs
 channel: Mandarin Corner
 lang: zh-Hant
 type: vocab
@@ -14,7 +14,7 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 # 深入詞彙 — 這個專案要學的詞
 
-> Deep dive into the 22 target words from this episode: reading, TOCFL level, meaning, character breakdown, a memory hook, and a simple example sentence. Readings + levels are from CC-CEDICT/TOCFL. Companion to the [[why-friendship-differs-summary|摘要]] (12 of these appear there).
+> Deep dive into the 22 target words from this episode: reading, TOCFL level, meaning, character breakdown, a memory hook, and a simple example sentence. Readings + levels are from CC-CEDICT/TOCFL. Companion to the [[zh-Hant/sources/videos/why-friendship-differs/summary|摘要]] (12 of these appear there).
 
 ## 封閉 — ㄈㄥ ㄅㄧˋ · TOCFL-5
 **意思 / meaning:** to close; to seal off; to close down (an illegal venue)
@@ -23,11 +23,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Picture a door (門, which you can see inside 閉) that has been not just closed but SEALED with tape (封). 關 = you shut the shop for the night; 封閉 = the police seal it so nobody gets in or out. Also useful as an adjective for a person: 封閉的人 = someone shut off, who lets nobody into their heart.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-00.mp3" data-say="他的心很封閉，不讓朋友看到真正的自己。">他的心很封閉，不讓朋友看到真正的自己。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他的心很封閉，不讓朋友看到真正的自己。
+
 ## 隱私 — ㄧㄣˇ ㄙ · TOCFL-6
 **意思 / meaning:** secrets; private business; privacy
 
@@ -35,11 +32,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Two 'keep-it-to-yourself' characters stacked: 隱 (hide) + 私 (private). If something is both hidden AND private, it is your 隱私. Tip: 隱私 is the THING (privacy / private business); the action 'to hide' is 隱藏. Don't mix them up.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-01.mp3" data-say="好朋友也要給對方一點隱私，不要什麼事情都問。">好朋友也要給對方一點隱私，不要什麼事情都問。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 好朋友也要給對方一點隱私，不要什麼事情都問。
+
 ## 隱藏 — ㄧㄣˇ ㄘㄤˊ · TOCFL-5
 **意思 / meaning:** to hide; to conceal; to mask
 
@@ -47,11 +41,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** A 'double-hide' word: 隱 + 藏 both mean conceal, so 隱藏 is hiding done well — nobody can find it. Contrast: 隱私 (noun, the private thing) vs 隱藏 (verb, the act of hiding it). You 隱藏 your 隱私.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-02.mp3" data-say="她常常隱藏自己的心情，讓大家以為她很開心。">她常常隱藏自己的心情，讓大家以為她很開心。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 她常常隱藏自己的心情，讓大家以為她很開心。
+
 ## 營造 — ㄧㄥˊ ㄗㄠˋ · TOCFL-6
 **意思 / meaning:** to build (housing); to construct; to make
 
@@ -59,11 +50,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Don't just translate it as plain 'build' — its most common real use is 營造氣氛 / 營造形象: deliberately ENGINEERING a vibe or an image. Think of a film crew 'constructing' a romantic atmosphere on set. Pairs perfectly with the face/image theme: people 營造 a successful image even when life is hard.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-03.mp3" data-say="他花很多錢，只是想營造一個有錢人的樣子。">他花很多錢，只是想營造一個有錢人的樣子。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他花很多錢，只是想營造一個有錢人的樣子。
+
 ## 炫耀 — ㄒㄩㄢˋ ㄧㄠˋ · TOCFL-6
 **意思 / meaning:** dazzling; to show off; to flaunt
 
@@ -71,11 +59,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** See the 火 (fire) inside 炫 — a show-off is lighting fireworks so all eyes are on them. 炫耀 carries a slightly negative, look-at-me tone. Strongly tied to the 'face' (面子) theme: people 炫耀 money, clothes, or trips to win face.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-04.mp3" data-say="他常常在朋友面前炫耀自己有很多錢。">他常常在朋友面前炫耀自己有很多錢。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他常常在朋友面前炫耀自己有很多錢。
+
 ## 掩飾 — ㄧㄢˇ ㄕˋ · TOCFL-6
 **意思 / meaning:** to cover up; to conceal; to mask
 
@@ -83,11 +68,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Hand (扌 in 掩) covering something, then 飾 'dressing it up' nicely on top — that's 掩飾: covering up the ugly truth with a pretty cover. Compare: 隱藏 = simply hide it away; 掩飾 = hide it by putting a fake nice face over it. Perfect for the 'saving face' theme.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-05.mp3" data-say="他想掩飾自己沒有錢，所以一直假裝很開心。">他想掩飾自己沒有錢，所以一直假裝很開心。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他想掩飾自己沒有錢，所以一直假裝很開心。
+
 ## 防備 — ㄈㄤˊ ㄅㄟˋ · TOCFL-6
 **意思 / meaning:** to guard against
 
@@ -95,11 +77,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Think 準備 (prepare) but with a defensive twist: you are not just preparing for a party, you are preparing AGAINST a threat. If you already know 準備, just swap 準 for 防 (defend) and you get 'prepare-to-defend' = 防備. The wall radical 阜 in 防 is your mental fortress.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-06.mp3" data-say="在陌生的地方，我們對人有一點防備。">在陌生的地方，我們對人有一點防備。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 在陌生的地方，我們對人有一點防備。
+
 ## 飢渴 — ㄐㄧ ㄎㄜˇ · TOCFL-7
 **意思 / meaning:** hungry and thirsty; (fig.) to crave (knowledge, love etc)
 
@@ -107,11 +86,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Read the two radicals like a comic strip: 飠 (food) + 氵 (water) = your stomach AND your throat are both crying out. Once it goes figurative, picture someone so eager to learn they are 'starving and parched' for books — that hunger/thirst image is exactly the metaphor Chinese uses too.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-07.mp3" data-say="他很愛學習，對新的東西總是飢渴。">他很愛學習，對新的東西總是飢渴。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他很愛學習，對新的東西總是飢渴。
+
 ## 供養 — ㄍㄨㄥˋ ㄧㄤˋ · TOCFL-7
 **意思 / meaning:** to supply; to provide for one's elders; to support one's parents
 
@@ -119,11 +95,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** You already know 養 (to raise/nourish). 供養 is 養 pointed UPWARD: instead of a parent feeding a child, the grown child now supplies (供) and nourishes (養) the parent. Tie it to 面子 culture — 供養 your 父母 is a deep filial duty, the respectful version of 'taking care of' family.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-08.mp3" data-say="他長大以後，開始供養父母。">他長大以後，開始供養父母。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他長大以後，開始供養父母。
+
 ## 陌生人 — ㄇㄛˋ ㄕㄥ ㄖㄣˊ · B2
 **意思 / meaning:** stranger
 
@@ -131,11 +104,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 陌生 is the exact opposite of a word you may meet, 熟 (familiar/cooked). 生 = raw/unfamiliar, so a 陌生人 is a 'raw person' — someone you have not yet 'cooked' into a friend. Just remember any 人 you do not know is 陌生 (raw); once you 聊天 enough, they stop being 陌生.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-09.mp3" data-say="以前他是陌生人，後來變成我的好朋友。">以前他是陌生人，後來變成我的好朋友。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 以前他是陌生人，後來變成我的好朋友。
+
 ## 稱呼 — ㄔㄥ ㄏㄨ · TOCFL-5
 **意思 / meaning:** to call; to address as; form of address
 
@@ -143,11 +113,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Spot the 口 (mouth) inside 呼 — addressing someone is literally a mouth action. Tie it to 文化 and 面子: choosing the right 稱呼 (老師? name? 長輩 title?) is a politeness minefield, so 稱呼 is the word for 'what do I CALL this person without losing face'.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-10.mp3" data-say="在這裡，我們稱呼他老師。">在這裡，我們稱呼他老師。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 在這裡，我們稱呼他老師。
+
 ## 辯論 — ㄅㄧㄢˋ ㄌㄨㄣˋ · TOCFL-6
 **意思 / meaning:** debate; argument; to argue over
 
@@ -155,11 +122,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** Both halves hide 言 (speech) — 辯論 is speech versus speech. Contrast it with 討論 (discuss): in a 討論 friends explore together; in a 辯論 two sides each defend a position and try to win. The doubled 辛 (a 'hardship/sharp' element) flanking 言 in 辯 looks like two debaters glaring across a podium.
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-11.mp3" data-say="他們對這個問題有不同的意見，所以開始辯論。">他們對這個問題有不同的意見，所以開始辯論。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他們對這個問題有不同的意見，所以開始辯論。
+
 ## 破裂 — ㄆㄛˋ ㄌㄧㄝˋ · TOCFL-6
 **意思 / meaning:** to burst; to rupture; (of a relationship etc) to break down
 
@@ -167,11 +131,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 想像一個氣球:先「破」(啵一聲),再「裂」成碎片。具體的東西(水管、氣球)會破裂,抽象的東西(友誼、感情、談判)也會破裂。這是 TOCFL-6 的高級書面詞,口語比較少用,看到它通常代表「徹底壞掉、無法修復」,語氣很重。注意:朋友吵架還沒到破裂,破裂是最後決裂的那一步。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-12.mp3" data-say="因為金錢問題,他們的友誼破裂了。">因為金錢問題,他們的友誼破裂了。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 因為金錢問題,他們的友誼破裂了。
+
 ## 仇恨 — ㄔㄡˊ ㄏㄣˋ · TOCFL-6
 **意思 / meaning:** to hate; hatred; enmity
 
@@ -179,11 +140,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 程度階梯記法:不喜歡 → 討厭 → 恨 → 仇恨。「仇恨」是最頂端、最深最久的那種,常跟戰爭、民族、血海深仇連在一起,不會用在「我仇恨數學課」這種小事上。可當名詞(充滿仇恨)也可當動詞(仇恨某人)。和「破裂」一樣是很重的 TOCFL-6 書面語。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-13.mp3" data-say="因為錢的問題，他對以前的朋友充滿了仇恨。">因為錢的問題，他對以前的朋友充滿了仇恨。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 因為錢的問題，他對以前的朋友充滿了仇恨。
+
 ## 矛盾 — ㄇㄠˊ ㄉㄨㄣˋ · TOCFL-5
 **意思 / meaning:** contradiction; conflicting views; contradictory
 
@@ -191,11 +149,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 記住那個賣武器的人:矛(攻)碰上盾(守),兩邊不可能同時成立 = 矛盾。可指邏輯上的「矛盾」(他說的話很矛盾),也可指人際間的「衝突、不合」(兩人之間有矛盾)。是日常很常用的 TOCFL-5 詞,比「破裂」「仇恨」溫和、好用。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-14.mp3" data-say="這部電影裡面有很多矛盾的地方。">這部電影裡面有很多矛盾的地方。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 這部電影裡面有很多矛盾的地方。
+
 ## 諷刺 — ㄈㄥˋ ㄘˋ · TOCFL-5
 **意思 / meaning:** to satirize; to mock; irony
 
@@ -203,11 +158,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 記成「說話像扎針」:諷刺不是直接罵,而是用反話、酸話讓人不舒服。中文裡常見「很諷刺的是…」(指事情結果剛好相反,很 ironic),也常見「他在諷刺我」(他在酸我)。和「面子」文化很相關——華人不直接撕破臉,常用諷刺繞著講。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-15.mp3" data-say="他常用話來諷刺社會的現象。">他常用話來諷刺社會的現象。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他常用話來諷刺社會的現象。
+
 ## 幼稚 — ㄧㄡˋ ㄓˋ · TOCFL-5
 **意思 / meaning:** young; childish; puerile
 
@@ -215,11 +167,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 小心一詞兩義:講小孩本身=年幼(中性);但拿來說大人的想法、行為=罵人「幼稚、不成熟」(貶義)。說「他很幼稚」幾乎都是批評。和「成熟」是相反詞;吵架時說對方幼稚,很傷面子,要小心使用。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-16.mp3" data-say="他的想法還很幼稚,像小孩一樣。">他的想法還很幼稚,像小孩一樣。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他的想法還很幼稚,像小孩一樣。
+
 ## 單純 — ㄉㄢ ㄔㄨㄣˊ · TOCFL-4
 **意思 / meaning:** simple; pure; unsophisticated
 
@@ -227,11 +176,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 兩面都是好意:形容人=心思乾淨、好騙、不複雜(個性單純);形容事=不複雜、好處理(問題很單純)。當副詞時=「只是、純粹」(我單純想幫你)。和「複雜」相反。注意它通常是正面或中性,跟貶義的「幼稚」不一樣——單純是心地好,幼稚是不成熟,別搞混。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-17.mp3" data-say="他的個性很單純,所以很容易相信別人。">他的個性很單純,所以很容易相信別人。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他的個性很單純,所以很容易相信別人。
+
 ## 換取 — ㄏㄨㄢˋ ㄑㄩˇ · TOCFL-6
 **意思 / meaning:** to obtain (sth) in exchange; to exchange (sth) for (sth else)
 
@@ -239,11 +185,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 把它想成一筆交易：『換』先丟出去，『取』再收回來。順序就是現實裡的買賣——先給 (換)，後拿 (取)。常考的陷阱是助詞搭配:『用…換取…』這個句型，前面放你付出的，後面放你得到的，別放反了。和情節呼應：人有時想『用錢換取友誼』,但真正的感情換不來。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-18.mp3" data-say="他用很多錢換取友誼，可是真心的朋友不是這樣來的。">他用很多錢換取友誼，可是真心的朋友不是這樣來的。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他用很多錢換取友誼，可是真心的朋友不是這樣來的。
+
 ## 委婉 — ㄨㄟˇ ㄨㄢˇ · TOCFL-7
 **意思 / meaning:** tactful; euphemistic; (of voice etc) suave
 
@@ -251,11 +194,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 記成『話不直走，拐個彎』——委婉的反義就是『直接』。畫面:一個人不好意思當面說『不』,於是把話彎彎繞繞地講出來，這就是委婉。和情節呼應：在重面子的文化裡，人常用委婉的方式拒絕，好保住對方的臉,而不傷感情。注意它常和『地』連用當副詞:委婉地……。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-19.mp3" data-say="他不想讓朋友沒面子，所以委婉地拒絕了我。">他不想讓朋友沒面子，所以委婉地拒絕了我。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 他不想讓朋友沒面子，所以委婉地拒絕了我。
+
 ## 困境 — ㄎㄨㄣˋ ㄐㄧㄥˋ · TOCFL-5
 **意思 / meaning:** predicament; plight
 
@@ -263,11 +203,8 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 拆字記:困 = 一個『木』被四面圍住 (口),像被牆關起來;境 = 你所在的『處境』。所以困境就是『四面是牆的處境』。對比:困難 (kùnnán) 偏向『某件事很難』,困境 (kùnjìng) 偏向『整個情況很糟、出不去』。和情節呼應:遇到困境時,真正的朋友會幫你走出來，這比金錢更重要。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-20.mp3" data-say="我遇到困境的時候，是好朋友幫助我走出來的。">我遇到困境的時候，是好朋友幫助我走出來的。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-</div>
+**例句 / example:** 我遇到困境的時候，是好朋友幫助我走出來的。
+
 ## 高尚 — ㄍㄠ ㄕㄤˋ · TOCFL-6
 **意思 / meaning:** noble; lofty; refined
 
@@ -275,8 +212,5 @@ tags: [vocab, encoding, zh-Hant, mandarin-corner, friendship]
 
 **記憶 / memory hook:** 把『高』當字面的高度,把整個詞想成『站在道德的高處』。注意它形容的是『品格/精神層面的高』,不是身高,也不是價格高。容易混的是:高尚 (人品高貴) ≠ 高級 (東西檔次高)。和情節呼應:幫助別人而不求回報,這種行為很高尚,值得學習。
 
-<div class="vocab-sent">
-<span class="zh-t" data-audio="audio/vocab/why-friendship-differs/ex-21.mp3" data-say="他幫助別人不為了錢，這種行為非常高尚，值得我們學習。">他幫助別人不為了錢，這種行為非常高尚，值得我們學習。</span>
-<div class="vocab-tools"><button type="button" class="btn vocab-play" aria-label="Play sentence">▶</button><button type="button" class="btn vocab-swave" aria-label="A/B loop waveform">🌊</button></div>
-<div class="vocab-wavebox"><div class="wv"></div><div class="vocab-wave-ctrls"><button type="button" class="btn vocab-wplay">▶</button><button type="button" class="btn vocab-wloop">🔁</button><button type="button" class="btn vocab-wspeed">1×</button></div><div class="vocab-hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
+**例句 / example:** 他幫助別人不為了錢，這種行為非常高尚，值得我們學習。
 </div>

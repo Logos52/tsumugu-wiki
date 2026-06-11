@@ -1,7 +1,7 @@
 ---
 title: "把生活變成開放世界 RPG — 摘要"
 english_title: "Turning Life Into an Open-World RPG (Looki L1 AI wearable) — 95%-CI summary"
-source: https://www.youtube.com/watch?v=p-iL1LoN2To
+source: life-as-open-world-rpg
 channel: 小寧子 XNZ
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, xiaoningzi, tech, ai-wearable, comprehensible-input]
 
 # 把生活變成開放世界 RPG — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.985**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[life-as-open-world-rpg-vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=p-iL1LoN2To); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.985**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/life-as-open-world-rpg/vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=p-iL1LoN2To); the raw transcript is kept private.
 
 作者拿到一個看起來很好玩的小工具，叫 Looki L1，是一個可以戴在身上的 AI 工具。簡單說，它會幫你把每天的生活記下來，再讓 AI 去看、去懂。
 
@@ -41,4 +41,4 @@ tags: [summary, zh-Hant, xiaoningzi, tech, ai-wearable, comprehensible-input]
 | **思緒** | ㄙ ㄒㄩˋ | train of thought; mood |
 | **畫面** | ㄏㄨㄚˋ ㄇㄧㄢˋ | image; (on-screen) picture |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[life-as-open-world-rpg-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/life-as-open-world-rpg/vocab]]**.

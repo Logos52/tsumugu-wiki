@@ -1,7 +1,7 @@
 ---
 title: "外國人與中國人的友誼觀 — 摘要"
 english_title: "Why Chinese and Foreigners View Friendship Differently — 95%-CI summary"
-source: https://www.youtube.com/watch?v=2idX7w0gs4k
+source: why-friendship-differs
 channel: Mandarin Corner
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, mandarin-corner, friendship, comprehensible-input]
 
 # 外國人與中國人的友誼觀 — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.980**, adjusted/decomposition-aware). The prose stays in words you know; the episode's new vocabulary lives in the table below and the companion page → [[why-friendship-differs-vocab|深入詞彙]]. Based on a [Mandarin Corner episode](https://www.youtube.com/watch?v=2idX7w0gs4k); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.980**, adjusted/decomposition-aware). The prose stays in words you know; the episode's new vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/why-friendship-differs/vocab|深入詞彙]]. Based on a [Mandarin Corner episode](https://www.youtube.com/watch?v=2idX7w0gs4k); the raw transcript is kept private.
 
 這個節目裡，做節目的兩個人聊到，很多外國人在中國工作、生活，圈子很小、不夠開放，多半只跟外國人來往，很少跟中國人做朋友，一個原因是兩邊語言不通。
 
@@ -41,4 +41,4 @@ tags: [summary, zh-Hant, mandarin-corner, friendship, comprehensible-input]
 | **矛盾** | ㄇㄠˊ ㄉㄨㄣˋ | contradiction |
 | **稱呼** | ㄔㄥ ㄏㄨ | to call |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[why-friendship-differs-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/why-friendship-differs/vocab]]**.

@@ -1,7 +1,7 @@
 ---
 title: "iOS 27 上手體驗 — 摘要"
 english_title: "iOS 27 hands-on — 95%-CI summary"
-source: https://www.youtube.com/watch?v=E5ShFx9unEQ
+source: ios27-epic-update
 channel: 小寧子 XNZ
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, xiaoningzi, tech, apple, ios, comprehensible-input]
 
 # iOS 27 上手體驗 — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.992**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[ios27-epic-update-vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=E5ShFx9unEQ); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.992**, adjusted/decomposition-aware). The prose stays in words you know; the video's new vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/ios27-epic-update/vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=E5ShFx9unEQ); the raw transcript is kept private.
 
 Apple 開了一年一次的大會，給寫 APP 的人看新的 iOS。今年的 iOS 27 看起來變化不大，但這次大會很特別：這是 Tim Cook 當 CEO 的最後一次大會，他九月一號之後就不當 CEO 了。他也帶來了他留給大家的最後一個大東西：全新的 Siri。
 
@@ -46,4 +46,4 @@ Apple 開了一年一次的大會，給寫 APP 的人看新的 iOS。今年的 i
 | **卸任** | ㄒㄧㄝˋ ㄖㄣˋ | to step down (from a post) |
 | **掌舵** | ㄓㄤˇ ㄉㄨㄛˋ | to be at the helm |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[ios27-epic-update-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/ios27-epic-update/vocab]]**.

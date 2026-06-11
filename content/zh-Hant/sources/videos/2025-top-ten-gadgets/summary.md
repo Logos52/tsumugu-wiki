@@ -1,7 +1,7 @@
 ---
 title: "2025 年度十大科技產品 — 摘要"
 english_title: "Top 10 tech products of 2025 — 95%-CI summary"
-source: https://www.youtube.com/watch?v=yz6utkYbq_E
+source: 2025-top-ten-gadgets
 channel: 小寧子 XNZ
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, xiaoningzi, tech, gadgets, comprehensible-input]
 
 # 2025 年度十大科技產品 — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.976**, adjusted/decomposition-aware). The prose stays in words you know; the gadget vocabulary lives in the table below and the companion page → [[2025-top-ten-gadgets-vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=yz6utkYbq_E); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.976**, adjusted/decomposition-aware). The prose stays in words you know; the gadget vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/2025-top-ten-gadgets/vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=yz6utkYbq_E); the raw transcript is kept private.
 
 這支影片裡，作者說了 2025 年他覺得最好的十個科技產品，也是他這一年買得最開心的十樣東西。
 
@@ -51,4 +51,4 @@ tags: [summary, zh-Hant, xiaoningzi, tech, gadgets, comprehensible-input]
 | **標籤** | ㄅㄧㄠ ㄑㄧㄢ | label; tag |
 | **噱頭** | ㄒㄩㄝˊ ㄊㄡˊ | gimmick; hype; a stunt |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[2025-top-ten-gadgets-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/2025-top-ten-gadgets/vocab]]**.

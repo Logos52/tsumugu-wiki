@@ -32,7 +32,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:98.0%"></span></span><b>.980</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:99.1%"></span></span><b>.991</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="why-friendship-differs-summary">讀 Read</a><a class="hub-btn" href="why-friendship-differs-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/why-friendship-differs/summary">讀 Read</a><a class="hub-btn" href="sources/videos/why-friendship-differs/vocab">記 Encode</a></div>
       </article>
       <article class="hub-card">
         <div class="hub-card-top"><span class="hub-chip">小寧子 XNZ</span><span class="hub-count">18 詞</span></div>
@@ -42,7 +42,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:97.1%"></span></span><b>.971</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:98.4%"></span></span><b>.984</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="steam-controller-review-summary">讀 Read</a><a class="hub-btn" href="steam-controller-review-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/steam-controller-review/summary">讀 Read</a><a class="hub-btn" href="sources/videos/steam-controller-review/vocab">記 Encode</a></div>
       </article>
       <article class="hub-card">
         <div class="hub-card-top"><span class="hub-chip">小寧子 XNZ</span><span class="hub-count">18 詞</span></div>
@@ -52,7 +52,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:98.5%"></span></span><b>.985</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:98.5%"></span></span><b>.985</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="life-as-open-world-rpg-summary">讀 Read</a><a class="hub-btn" href="life-as-open-world-rpg-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/life-as-open-world-rpg/summary">讀 Read</a><a class="hub-btn" href="sources/videos/life-as-open-world-rpg/vocab">記 Encode</a></div>
       </article>
       <article class="hub-card">
         <div class="hub-card-top"><span class="hub-chip">小寧子 XNZ</span><span class="hub-count">19 詞</span></div>
@@ -62,7 +62,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:97.6%"></span></span><b>.976</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:99.4%"></span></span><b>.994</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="2025-top-ten-gadgets-summary">讀 Read</a><a class="hub-btn" href="2025-top-ten-gadgets-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/2025-top-ten-gadgets/summary">讀 Read</a><a class="hub-btn" href="sources/videos/2025-top-ten-gadgets/vocab">記 Encode</a></div>
       </article>
       <article class="hub-card">
         <div class="hub-card-top"><span class="hub-chip">小寧子 XNZ</span><span class="hub-count">17 詞</span></div>
@@ -72,7 +72,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:99.2%"></span></span><b>.992</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:96.6%"></span></span><b>.966</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="ios27-epic-update-summary">讀 Read</a><a class="hub-btn" href="ios27-epic-update-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/ios27-epic-update/summary">讀 Read</a><a class="hub-btn" href="sources/videos/ios27-epic-update/vocab">記 Encode</a></div>
       </article>
       <article class="hub-card">
         <div class="hub-card-top"><span class="hub-chip">小寧子 XNZ</span><span class="hub-count">16 詞</span></div>
@@ -82,7 +82,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:100%"></span></span><b>1.00</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:97.0%"></span></span><b>.970</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="iphone-18-lineup-preview-summary">讀 Read</a><a class="hub-btn" href="iphone-18-lineup-preview-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/iphone-18-lineup-preview/summary">讀 Read</a><a class="hub-btn" href="sources/videos/iphone-18-lineup-preview/vocab">記 Encode</a></div>
       </article>
       <article class="hub-card">
         <div class="hub-card-top"><span class="hub-chip">小寧子 XNZ</span><span class="hub-count">16 詞</span></div>
@@ -92,7 +92,7 @@ tags: [moc]
           <div class="hub-ci-row"><span>摘要</span><span class="hub-ci-track"><span class="hub-ci-fill" style="width:100%"></span></span><b>1.00</b></div>
           <div class="hub-ci-row"><span>詞彙</span><span class="hub-ci-track"><span class="hub-ci-fill alt" style="width:98.6%"></span></span><b>.986</b></div>
         </div>
-        <div class="hub-actions"><a class="hub-btn primary" href="ai-replaced-my-thinking-summary">讀 Read</a><a class="hub-btn" href="ai-replaced-my-thinking-vocab">記 Encode</a></div>
+        <div class="hub-actions"><a class="hub-btn primary" href="sources/videos/ai-replaced-my-thinking/summary">讀 Read</a><a class="hub-btn" href="sources/videos/ai-replaced-my-thinking/vocab">記 Encode</a></div>
       </article>
     </div>
   </section>

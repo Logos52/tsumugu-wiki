@@ -10,8 +10,8 @@ Usage (from anywhere; re-execs into voice venv when needed):
   python3 scripts/wiki_vocab_audio.py render          # synth missing clips
   python3 scripts/wiki_vocab_audio.py audit           # transcribe-back QA
   python3 scripts/wiki_vocab_audio.py fix             # regen flagged clips
-  python3 scripts/wiki_vocab_audio.py stamp           # rewrite *-vocab.md HTML
-  python3 scripts/wiki_vocab_audio.py all             # render → audit → fix → stamp
+  python3 scripts/wiki_vocab_audio.py stamp           # no-op (VocabVoice plugin at build)
+  python3 scripts/wiki_vocab_audio.py all             # render → audit → fix
   python3 scripts/wiki_vocab_audio.py all --slug ai-replaced-my-thinking
 """
 from __future__ import annotations
@@ -28,6 +28,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 CONTENT = HERE / "content" / "zh-Hant"
+VIDEO_VOCAB = CONTENT / "sources" / "videos"
 AUDIO_ROOT = CONTENT / "audio" / "vocab"
 MANIFEST = AUDIO_ROOT / "manifest.json"
 TTS_MODEL = "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16"
@@ -69,6 +70,8 @@ def ensure_runtime() -> None:
 
 
 def slug_from_file(path: Path) -> str:
+    if path.name == "vocab.md" and path.parent.parent.name == "videos":
+        return path.parent.name
     name = path.stem
     return name[:-6] if name.endswith("-vocab") else name
 
@@ -90,7 +93,8 @@ def display_html(raw: str) -> str:
 
 
 def vocab_files(slug: str | None = None) -> list[Path]:
-    files = sorted(CONTENT.glob("*-vocab.md"))
+    files = sorted(VIDEO_VOCAB.glob("*/vocab.md"))
+    files += sorted(CONTENT.glob("*-vocab.md"))
     if slug:
         files = [f for f in files if slug_from_file(f) == slug]
     return files
@@ -353,39 +357,12 @@ def voiced_block(e: dict) -> str:
 
 
 def cmd_stamp(args) -> None:
-    m = load_manifest()
+    """Audio UI is injected at build time by quartz/plugins/transformers/vocabVoice.ts."""
     for vf in vocab_files(args.slug):
         slug = slug_from_file(vf)
-        text = vf.read_text(encoding="utf-8")
-        if "vocab-sent" in text and not args.force:
-            print(f"stamp: skip {vf.name} (already voiced; use --force)")
-            continue
         entries = [e for e in collect_entries(slug) if e["vocab_md"] == vf]
-        if not entries:
-            continue
-        missing = [e for e in entries if not e["mp3"].exists()]
-        if missing and not args.force:
-            print(f"stamp: skip {vf.name} — {len(missing)} clip(s) missing; run render first")
-            continue
-
-        parts = []
-        last = 0
-        for mo in EX_LINE.finditer(text):
-            parts.append(text[last:mo.start()])
-            raw = mo.group(1).strip()
-            hit = next((e for e in entries if e["display"] == raw or say_text(raw) == e["say"]), None)
-            parts.append(voiced_block(hit) if hit else mo.group(0))
-            last = mo.end()
-        parts.append(text[last:])
-        new_text = "".join(parts)
-
-        # frontmatter flag
-        if "voice: serena" not in new_text.lower():
-            new_text = new_text.replace("type: vocab\n", "type: vocab\nvoice: serena\n", 1)
-
-        vf.write_text(new_text, encoding="utf-8")
-        ok = sum(1 for e in entries if (AUDIO_ROOT / slug / e["clip"]).exists())
-        print(f"stamp: {vf.name} — {ok}/{len(entries)} voiced 例句")
+        ok = sum(1 for e in entries if e["mp3"].exists())
+        print(f"stamp: {vf.relative_to(HERE)} — {ok}/{len(entries)} clips (build-time VocabVoice)")
 
 
 def cmd_all(args) -> None:

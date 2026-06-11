@@ -1,7 +1,7 @@
 ---
 title: "Steam 手柄評測 — 摘要"
 english_title: "Steam Controller review — 95%-CI summary"
-source: https://www.youtube.com/watch?v=2_FpQj_f69g
+source: steam-controller-review
 channel: 小寧子 XNZ
 lang: zh-Hant
 type: summary
@@ -12,7 +12,7 @@ tags: [summary, zh-Hant, xiaoningzi, tech, gaming, hardware, comprehensible-inpu
 
 # Steam 手柄評測 — 摘要
 
-> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.971**, adjusted/decomposition-aware). The prose stays in words you know; the hardware vocabulary lives in the table below and the companion page → [[steam-controller-review-vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=2_FpQj_f69g); the raw transcript is kept private.
+> A summary written to be **read at ~95% comprehensible input** against your vocabulary (measured **CI = 0.971**, adjusted/decomposition-aware). The prose stays in words you know; the hardware vocabulary lives in the table below and the companion page → [[zh-Hant/sources/videos/steam-controller-review/vocab|深入詞彙]]. Based on a [小寧子 XNZ video](https://www.youtube.com/watch?v=2_FpQj_f69g); the raw transcript is kept private.
 
 Steam 出了一個新的、玩遊戲用的工具，叫 Steam Controller，要 700 塊，剛出來幾個小時，很多地方就都買不到了。它這麼貴卻這麼受歡迎，一半是因為大家一直很相信 Steam，一半是因為它真的很特別。
 
@@ -45,4 +45,4 @@ Steam 出了一個新的、玩遊戲用的工具，叫 Steam Controller，要 70
 | **陀螺儀** | ㄊㄨㄛˊ ㄌㄨㄛˊ ㄧˊ | gyroscope |
 | **價效比** | ㄐㄧㄚˋ ㄒㄧㄠˋ ㄅㄧˇ | price-to-performance ratio |
 
-→ Character breakdowns, memory hooks, and example sentences: **[[steam-controller-review-vocab]]**.
+→ Character breakdowns, memory hooks, and example sentences: **[[zh-Hant/sources/videos/steam-controller-review/vocab]]**.
