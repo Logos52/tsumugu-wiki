@@ -52,6 +52,47 @@
   pointer-events: none;
 }
 
+// ── Reading vocab voiced 例句 (Serena + A/B-loop) ─────────────────────────
+.vocab-sent {
+  margin: 0.35rem 0 1rem;
+  padding: 0.5rem 0.65rem;
+  border-radius: 8px;
+  background: var(--highlight);
+  border: 1px solid var(--lightgray);
+}
+.vocab-sent .zh-t {
+  display: block;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  cursor: pointer;
+}
+.vocab-sent .zh-t.speaking { color: var(--secondary); }
+.vocab-tools {
+  display: flex;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+}
+.vocab-sent .btn {
+  font-size: 0.82rem;
+  padding: 0.15rem 0.45rem;
+  border-radius: 6px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  cursor: pointer;
+}
+.vocab-wavebox {
+  display: none;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+}
+.vocab-wavebox.open { display: block; }
+.vocab-wave-ctrls { display: flex; gap: 0.35rem; margin-top: 0.35rem; }
+.vocab-hint { color: var(--gray); font-size: 0.78rem; margin-top: 0.25rem; }
+.vocab-wloop.on { background: var(--secondary); color: var(--light); }
+
 // ── zh-Hant browse hub (content/zh-Hant/index.md) ─────────────────────────
 // Cotton-candy weave identity (the woven-つ logo language), scoped to the
 // hub markup + this slug only. Light/dark via Quartz's saved-theme attr.

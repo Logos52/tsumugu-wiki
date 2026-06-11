@@ -1,0 +1,650 @@
+{
+  "schema": "tsumugu/wiki-vocab-audio@1",
+  "voice": "Serena",
+  "readings": {
+    "2025-top-ten-gadgets": {
+      "ex-00.mp3": {
+        "say": "這臺小車是一個黑膠唱片機。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-01.mp3": {
+        "say": "小車會讀唱片上面的東西。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-02.mp3": {
+        "say": "它會讀唱片上的凹痕。",
+        "verified": true,
+        "ratio": 0.889
+      },
+      "ex-03.mp3": {
+        "say": "它很可愛，可是音質很差。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "這是世界上第一臺家用的 UV 印表機。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-05.mp3": {
+        "say": "它可以在木板上列印。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-06.mp3": {
+        "say": "它可以印出立體的東西。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-07.mp3": {
+        "say": "印出來的東西非常精緻。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-08.mp3": {
+        "say": "它連畫上的筆觸都能印出來。",
+        "verified": true,
+        "ratio": 0.917
+      },
+      "ex-09.mp3": {
+        "say": "這些東西是用 3D 掃描做出來的。",
+        "verified": true,
+        "ratio": 0.87
+      },
+      "ex-10.mp3": {
+        "say": "你也可以用它來做美甲。",
+        "verified": true,
+        "ratio": 0.952
+      },
+      "ex-11.mp3": {
+        "say": "它的降噪很好，能讓外面變安靜。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-12.mp3": {
+        "say": "它的通透很自然，戴著像沒戴一樣。",
+        "verified": true,
+        "ratio": 0.857
+      },
+      "ex-13.mp3": {
+        "say": "它很便攜，旅行的時候很好帶。",
+        "verified": true,
+        "ratio": 0.917
+      },
+      "ex-14.mp3": {
+        "say": "這個檢測儀可以告訴你線好不好。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-15.mp3": {
+        "say": "我幫所有的線都加上了標籤。",
+        "verified": true,
+        "ratio": 0.917
+      },
+      "ex-16.mp3": {
+        "say": "它的散熱很好，不太會變熱。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-17.mp3": {
+        "say": "我在外面放了一個監控。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-18.mp3": {
+        "say": "希望明年有更多不只是噱頭的東西。",
+        "verified": true,
+        "ratio": 1.0
+      }
+    },
+    "ai-replaced-my-thinking": {
+      "ex-00.mp3": {
+        "say": "她把工作全部外包給 AI。",
+        "verified": true,
+        "ratio": 0.889
+      },
+      "ex-01.mp3": {
+        "say": "她拿自己做了一個 7 天的實驗。",
+        "verified": true,
+        "ratio": 0.88
+      },
+      "ex-02.mp3": {
+        "say": "7 天之後，她的智力沒有變差。",
+        "verified": true,
+        "ratio": 0.87
+      },
+      "ex-03.mp3": {
+        "say": "那 36 題，要的就是推理。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "7 天後，她的注意力明顯變差。",
+        "verified": true,
+        "ratio": 0.957
+      },
+      "ex-05.mp3": {
+        "say": "一邊看、一邊聽、兩邊都要記住，用的就是工作記憶。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-06.mp3": {
+        "say": "簡單的事，現在要前額葉來幫忙才做得完。",
+        "verified": true,
+        "ratio": 0.882
+      },
+      "ex-07.mp3": {
+        "say": "醫生說，很久以前的事都放在海馬體裡。",
+        "verified": true,
+        "ratio": 0.938
+      },
+      "ex-08.mp3": {
+        "say": "她的能力衰退了，可是回得來。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-09.mp3": {
+        "say": "她失眠了，到早上九點才能睡覺。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-10.mp3": {
+        "say": "那種影片又短又快，給腦子太多刺激。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-11.mp3": {
+        "say": "看好的東西，腦子要專注才行。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-12.mp3": {
+        "say": "就算你很依賴 AI，問題也不大，回得來。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-13.mp3": {
+        "say": "是不是 AI 寫的，她馬上就能識破。",
+        "verified": true,
+        "ratio": 0.833
+      },
+      "ex-14.mp3": {
+        "say": "AI 一下子就寫好一個大綱。",
+        "verified": true,
+        "ratio": 0.9
+      },
+      "ex-15.mp3": {
+        "say": "甲方就是給錢、請你做事的那一邊。",
+        "verified": true,
+        "ratio": 1.0
+      }
+    },
+    "ios27-epic-update": {
+      "ex-00.mp3": {
+        "say": "Apple 的大會是開給開發者看的。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-01.mp3": {
+        "say": "新的 Siri 像一個會幫你做事的助理。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-02.mp3": {
+        "say": "iOS 27 的穩定性，比 26 好了很多。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-03.mp3": {
+        "say": "你可以讓 Liquid Glass 的透明度變高或變低。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "有人愛液態玻璃，有人不愛。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-05.mp3": {
+        "say": "我每天早上都要鬧鐘叫我起來。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-06.mp3": {
+        "say": "以前的 Siri 只是一個用說話的遙控器。",
+        "verified": true,
+        "ratio": 0.929
+      },
+      "ex-07.mp3": {
+        "say": "你不用先截圖，Siri 自己看得到你的畫面。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-08.mp3": {
+        "say": "比較難的事，AI 會放到雲端去做。",
+        "verified": true,
+        "ratio": 0.917
+      },
+      "ex-09.mp3": {
+        "say": "新的聽寫比打字快很多。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-10.mp3": {
+        "say": "它會自己幫你加上標點符號。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-11.mp3": {
+        "say": "現在你可以用自然語言告訴手機要做什麼。",
+        "verified": true,
+        "ratio": 0.889
+      },
+      "ex-12.mp3": {
+        "say": "作者熬夜看完了一個半小時的大會。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-13.mp3": {
+        "say": "一樣的東西，有人愛、有人不愛，真的是眾口難調。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-14.mp3": {
+        "say": "今年 Apple 走得慢，但是穩紮穩打。",
+        "verified": true,
+        "ratio": 0.818
+      },
+      "ex-15.mp3": {
+        "say": "Tim Cook 九月就要卸任了。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-16.mp3": {
+        "say": "他掌舵 Apple 這麼多年，做出很多大家愛用的東西。",
+        "verified": true,
+        "ratio": 0.824
+      }
+    },
+    "iphone-18-lineup-preview": {
+      "ex-00.mp3": {
+        "say": "今年 Apple 要出第一支折疊屏 iPhone 了。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-01.mp3": {
+        "say": "影片裡的不是真手機，是一個機模。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-02.mp3": {
+        "say": "新手機還沒出，就已經全部曝光了。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-03.mp3": {
+        "say": "這幾年什麼都在漲價。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "因為供應鏈做不出那麼多，普通的 18 要等明年。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-05.mp3": {
+        "say": "新東西太難做，產能一定不夠。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-06.mp3": {
+        "say": "今年的晶片更快，也更省電。",
+        "verified": true,
+        "ratio": 0.818
+      },
+      "ex-07.mp3": {
+        "say": "新的製程讓手機更快、也更省電。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-08.mp3": {
+        "say": "它的畫面幾乎看不到折痕。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-09.mp3": {
+        "say": "打開、關起來好不好用，就看鉸鏈做得好不好。",
+        "verified": true,
+        "ratio": 0.944
+      },
+      "ex-10.mp3": {
+        "say": "做得這麼特別的手機，一定會有妥協。",
+        "verified": true,
+        "ratio": 0.933
+      },
+      "ex-11.mp3": {
+        "say": "Ultra 沒有長焦，Pro Max 有。",
+        "verified": true,
+        "ratio": 0.8
+      },
+      "ex-12.mp3": {
+        "say": "光圈可以變大變小，晚上拍照更好看。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-13.mp3": {
+        "say": "大家一看就知道是新 iPhone，這就是辨識度。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-14.mp3": {
+        "say": "18000 塊的手機，已經是輕奢了。",
+        "verified": true,
+        "ratio": 0.857
+      },
+      "ex-15.mp3": {
+        "say": "新 iPhone 長什麼樣子，已經塵埃落定。",
+        "verified": true,
+        "ratio": 0.88
+      }
+    },
+    "life-as-open-world-rpg": {
+      "ex-00.mp3": {
+        "say": "這個工具可以穿戴在身上。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-01.mp3": {
+        "say": "第一次用，覺得很新奇。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-02.mp3": {
+        "say": "它用你的視角把東西拍下來。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-03.mp3": {
+        "say": "它可以磁吸在充電的地方。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "它把這些素材交給 AI。",
+        "verified": true,
+        "ratio": 0.875
+      },
+      "ex-05.mp3": {
+        "say": "AI 會自己生成一支小影片。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-06.mp3": {
+        "say": "它會自己識別你在做什麼。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-07.mp3": {
+        "say": "它知道你現在在什麼情境。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-08.mp3": {
+        "say": "你可以自定義它要做的事。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-09.mp3": {
+        "say": "像玩遊戲一樣去探索生活。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-10.mp3": {
+        "say": "它提醒你回去專注做事。",
+        "verified": true,
+        "ratio": 0.9
+      },
+      "ex-11.mp3": {
+        "say": "它就像一個外掛，幫你記住每天的事。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-12.mp3": {
+        "say": "它會慢慢觀察你的一天。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-13.mp3": {
+        "say": "連最平凡的一天，它也留下來。",
+        "verified": true,
+        "ratio": 0.917
+      },
+      "ex-14.mp3": {
+        "say": "每天晚上覆盤一下，看看自己過得好不好。",
+        "verified": true,
+        "ratio": 0.941
+      },
+      "ex-15.mp3": {
+        "say": "寫東西可以讓你的思緒清楚一點。",
+        "verified": true,
+        "ratio": 0.929
+      },
+      "ex-16.mp3": {
+        "say": "把難過寫下來，是一種疏導。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-17.mp3": {
+        "say": "心裡的感覺，很難只用畫面留下來。",
+        "verified": true,
+        "ratio": 1.0
+      }
+    },
+    "steam-controller-review": {
+      "ex-00.mp3": {
+        "say": "Steam 也做自己的硬體了。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-01.mp3": {
+        "say": "這個 Steam 手柄要 700 塊。",
+        "verified": true,
+        "ratio": 0.833
+      },
+      "ex-02.mp3": {
+        "say": "Steam 的口碑一直很好。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-03.mp3": {
+        "say": "它左右兩邊長得很對稱。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "它有兩塊觸控板，用手碰就能用。",
+        "verified": true,
+        "ratio": 0.923
+      },
+      "ex-05.mp3": {
+        "say": "它的搖桿幾乎不會自己動。",
+        "verified": true,
+        "ratio": 0.818
+      },
+      "ex-06.mp3": {
+        "say": "它幾乎不會漂移。",
+        "verified": true,
+        "ratio": 0.857
+      },
+      "ex-07.mp3": {
+        "say": "它的續航很久，可以玩很長時間。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-08.mp3": {
+        "say": "它的相容很好，可是只能用在 Steam 上。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-09.mp3": {
+        "say": "Steam 可以幫它換新的韌體。",
+        "verified": true,
+        "ratio": 0.889
+      },
+      "ex-10.mp3": {
+        "say": "你可以用陀螺儀來玩遊戲。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-11.mp3": {
+        "say": "用它可以瞄準得更好。",
+        "verified": true,
+        "ratio": 0.889
+      },
+      "ex-12.mp3": {
+        "say": "它的延遲很低，用起來很快。",
+        "verified": true,
+        "ratio": 0.818
+      },
+      "ex-13.mp3": {
+        "say": "你可以坐在家裡喚醒電腦。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-14.mp3": {
+        "say": "它差不多做到了即插即用。",
+        "verified": true,
+        "ratio": 0.818
+      },
+      "ex-15.mp3": {
+        "say": "它的自定義很多，可以改成你要的樣子。",
+        "verified": true,
+        "ratio": 0.875
+      },
+      "ex-16.mp3": {
+        "say": "700 塊的價效比剛剛好。",
+        "verified": true,
+        "ratio": 0.933
+      },
+      "ex-17.mp3": {
+        "say": "它還沒有完全碾壓別的工具。",
+        "verified": true,
+        "ratio": 0.917
+      }
+    },
+    "why-friendship-differs": {
+      "ex-00.mp3": {
+        "say": "他的心很封閉，不讓朋友看到真正的自己。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-01.mp3": {
+        "say": "好朋友也要給對方一點隱私，不要什麼事情都問。",
+        "verified": true,
+        "ratio": 0.9
+      },
+      "ex-02.mp3": {
+        "say": "她常常隱藏自己的心情，讓大家以為她很開心。",
+        "verified": true,
+        "ratio": 0.895
+      },
+      "ex-03.mp3": {
+        "say": "他花很多錢，只是想營造一個有錢人的樣子。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-04.mp3": {
+        "say": "他常常在朋友面前炫耀自己有很多錢。",
+        "verified": true,
+        "ratio": 0.938
+      },
+      "ex-05.mp3": {
+        "say": "他想掩飾自己沒有錢，所以一直假裝很開心。",
+        "verified": true,
+        "ratio": 0.944
+      },
+      "ex-06.mp3": {
+        "say": "在陌生的地方，我們對人有一點防備。",
+        "verified": true,
+        "ratio": 0.966
+      },
+      "ex-07.mp3": {
+        "say": "他很愛學習，對新的東西總是飢渴。",
+        "verified": true,
+        "ratio": 0.857
+      },
+      "ex-08.mp3": {
+        "say": "他長大以後，開始供養父母。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-09.mp3": {
+        "say": "以前他是陌生人，後來變成我的好朋友。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-10.mp3": {
+        "say": "在這裡，我們稱呼他老師。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-11.mp3": {
+        "say": "他們對這個問題有不同的意見，所以開始辯論。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-12.mp3": {
+        "say": "因為金錢問題,他們的友誼破裂了。",
+        "verified": true,
+        "ratio": 0.857
+      },
+      "ex-13.mp3": {
+        "say": "因為錢的問題，他對以前的朋友充滿了仇恨。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-14.mp3": {
+        "say": "這部電影裡面有很多矛盾的地方。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-15.mp3": {
+        "say": "他常用話來諷刺社會的現象。",
+        "verified": true,
+        "ratio": 0.917
+      },
+      "ex-16.mp3": {
+        "say": "他的想法還很幼稚,像小孩一樣。",
+        "verified": true,
+        "ratio": 0.923
+      },
+      "ex-17.mp3": {
+        "say": "他的個性很單純,所以很容易相信別人。",
+        "verified": true,
+        "ratio": 0.938
+      },
+      "ex-18.mp3": {
+        "say": "他用很多錢換取友誼，可是真心的朋友不是這樣來的。",
+        "verified": true,
+        "ratio": 0.909
+      },
+      "ex-19.mp3": {
+        "say": "他不想讓朋友沒面子，所以委婉地拒絕了我。",
+        "verified": true,
+        "ratio": 0.833
+      },
+      "ex-20.mp3": {
+        "say": "我遇到困境的時候，是好朋友幫助我走出來的。",
+        "verified": true,
+        "ratio": 1.0
+      },
+      "ex-21.mp3": {
+        "say": "他幫助別人不為了錢，這種行為非常高尚，值得我們學習。",
+        "verified": true,
+        "ratio": 0.957
+      }
+    }
+  }
+}

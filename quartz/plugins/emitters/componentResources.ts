@@ -253,6 +253,23 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
       document.dispatchEvent(event)
     `)
   }
+
+  // Reading vocab pages: Serena clips + A/B-loop waveforms on 例句
+  componentResources.afterDOMLoaded.push(`
+    function loadVocabVoice() {
+      if (!document.querySelector('.vocab-sent')) return;
+      if (document.querySelector('script[data-vocab-voice]')) return;
+      const s = document.createElement('script');
+      s.dataset.vocabVoice = '1';
+      const seg = window.location.pathname.split('/').filter(Boolean);
+      const depth = Math.max(0, seg.length - 1);
+      s.src = (depth ? '../'.repeat(depth) : './') + 'static/vocab-voice/app.js';
+      s.defer = true;
+      document.body.appendChild(s);
+    }
+    loadVocabVoice();
+    document.addEventListener('nav', loadVocabVoice);
+  `)
 }
 
 // This emitter should not update the `resources` parameter. If it does, partial
