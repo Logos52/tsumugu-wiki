@@ -6,7 +6,7 @@ tags: [moc]
 ---
 
 <div class="tsumugu-hub">
-  <header class="hub-hero">
+  <div class="hub-hero">
     <div class="hub-kicker">Tsumugu · 紡ぐ — the reading shelf</div>
     <div class="hub-title">繁體中文</div>
     <p class="hub-sub">Graded readings woven from real video. Every source pairs a <strong>95%-CI summary</strong> with a <strong>vocab encoder</strong>; raw transcripts stay private. CI is measured against the live word store — never guessed.</p>
@@ -16,7 +16,7 @@ tags: [moc]
       <span class="hub-stat"><b>126</b> words encoded</span>
       <span class="hub-stat"><b>~95%</b> comprehensible input</span>
     </div>
-  </header>
+  </div>
   <section class="hub-section">
     <div class="hub-sec">
       <span class="hub-sec-mark">讀</span>
