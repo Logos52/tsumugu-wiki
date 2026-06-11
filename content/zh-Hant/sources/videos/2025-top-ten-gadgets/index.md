@@ -14,5 +14,6 @@ tags: [source, zh-Hant, xiaoningzi, youtube]
 
 > YouTube reading bundle — [[zh-Hant/sources/videos/2025-top-ten-gadgets/summary|摘要]] (95%-CI summary) · [[zh-Hant/sources/videos/2025-top-ten-gadgets/vocab|深入詞彙]] (vocab encoder). Raw transcript stays private.
 
+- **Reader:** [YouTube split-pane →](https://logos52.github.io/tsumugu/app/?reading=2025-top-ten-gadgets) — synced video, per-sentence Serena audio + waveforms, English (`t`)
 - **Channel:** 小寧子 XNZ
 - **Source:** [https://www.youtube.com/watch?v=yz6utkYbq_E](https://www.youtube.com/watch?v=yz6utkYbq_E)

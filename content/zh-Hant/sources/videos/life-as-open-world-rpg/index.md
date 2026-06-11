@@ -14,5 +14,6 @@ tags: [source, zh-Hant, xiaoningzi, youtube]
 
 > YouTube reading bundle — [[zh-Hant/sources/videos/life-as-open-world-rpg/summary|摘要]] (95%-CI summary) · [[zh-Hant/sources/videos/life-as-open-world-rpg/vocab|深入詞彙]] (vocab encoder). Raw transcript stays private.
 
+- **Reader:** [YouTube split-pane →](https://logos52.github.io/tsumugu/app/?reading=life-as-open-world-rpg) — synced video, per-sentence Serena audio + waveforms, English (`t`)
 - **Channel:** 小寧子 XNZ
 - **Source:** [https://www.youtube.com/watch?v=p-iL1LoN2To](https://www.youtube.com/watch?v=p-iL1LoN2To)

@@ -14,5 +14,6 @@ tags: [source, zh-Hant, xiaoningzi, youtube]
 
 > YouTube reading bundle — [[zh-Hant/sources/videos/ios27-epic-update/summary|摘要]] (95%-CI summary) · [[zh-Hant/sources/videos/ios27-epic-update/vocab|深入詞彙]] (vocab encoder). Raw transcript stays private.
 
+- **Reader:** [YouTube split-pane →](https://logos52.github.io/tsumugu/app/?reading=ios27-epic-update) — synced video, per-sentence Serena audio + waveforms, English (`t`)
 - **Channel:** 小寧子 XNZ
 - **Source:** [https://www.youtube.com/watch?v=E5ShFx9unEQ](https://www.youtube.com/watch?v=E5ShFx9unEQ)
