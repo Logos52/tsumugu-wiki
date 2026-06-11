@@ -8,8 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      "Tsumugu Reader": "https://logos52.github.io/tsumugu/",
+      "Engine source": "https://github.com/Logos52/tsumugu",
+      "Wiki source": "https://github.com/Logos52/tsumugu-wiki",
     },
   }),
 }
