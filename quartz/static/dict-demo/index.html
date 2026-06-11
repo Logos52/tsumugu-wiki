@@ -3,14 +3,15 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Tsumugu Encoding Dictionary — prototype</title>
+<title>Tsumugu Encoding Dictionary</title>
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" defer></script>
 </head>
 <body>
 
 <nav class="nav">
-  <span class="brand"><span class="ko">紡</span>Tsumugu Encoding Dictionary <small>prototype for feedback</small></span>
+  <span class="brand"><span class="ko">紡</span>Tsumugu Encoding Dictionary</span>
+  <a class="pill" href="about.html">how to read these pages</a>
   <span class="spacer"></span>
   <button class="pill" id="legendBtn">● colors?</button>
 </nav>
@@ -23,48 +24,35 @@
 
 <div class="wrap">
   <h1 style="margin:6px 0 2px">A dictionary built for <em>remembering</em>, not just looking up.</h1>
-  <p style="color:var(--dim);max-width:640px">Every entry pairs a <span style="color:var(--origin)">字源</span> card (what the character actually is — grounded, sourced) with a <span style="color:var(--story)">故事</span> card (whatever makes it stick — labeled honestly). Components are <em>shown</em> by color, not explained over and over. Everything readable is playable, in a real studio-grade local TTS voice.</p>
-  <p style="color:var(--faint);font-size:13px">Tap <strong>● colors?</strong> once — that's the entire legend you'll ever need.</p>
+  <p style="color:var(--dim);max-width:640px">Every entry pairs a <span style="color:var(--origin)">字源</span> card (what the parts really do) with a <span style="color:var(--story)">故事</span> card (a scene to remember it by). Components are <em>shown</em> by color, not explained over and over. Everything readable is playable.</p>
+  <p style="color:var(--faint);font-size:13px">Tap <strong>● colors?</strong> once — that's the entire legend you'll ever need. New here? Start with <a href="about.html">how to read these pages</a>.</p>
 
   <div class="ix">
     <a class="ixc" href="renao.html">
       <div class="big">熱鬧</div>
       <div class="t">Word entry — rènào</div>
-      <div class="d">Two definitions (English | 簡明中文 toggle) · 4 voiced example sentences · character-breakdown strip · A/B-loop waveform practice.</div>
-      <div class="look">👀 real Qwen3-TTS (Serena) audio on this page — try ▶ play all, then 🌊 on a sentence</div>
+      <div class="d">Two definitions (English | 簡明中文 toggle) · voiced example sentences · character-breakdown strip · A/B-loop waveform practice.</div>
     </a>
     <a class="ixc" href="zao.html">
       <div class="big">造</div>
       <div class="t">Character entry — zào</div>
-      <div class="d">The full anatomy: colored components, meaning tree with derivation arrows, sound-loan 〇, Expert evolution. Leads with analysis.</div>
-      <div class="look">👀 try the depth dial (structure → +meanings → +expert) and 📖 study mode</div>
+      <div class="d">The full anatomy: colored components, meaning tree with derivation arrows, sound-loan 〇, evolution. Leads with analysis.</div>
     </a>
     <a class="ixc" href="she.html">
       <div class="big">射</div>
       <div class="t">Character entry — shè</div>
       <div class="d">The corruption showcase: 身 looks like “body” but is a fossilized bow. Truth and story side by side, each labeled.</div>
-      <div class="look">👀 the 字源/故事 pair here is the product thesis in one screen</div>
     </a>
     <a class="ixc" href="nao.html">
       <div class="big">鬧</div>
       <div class="t">Character entry — nào</div>
-      <div class="d">Story-first entry: a rich mnemonic leads, while the analysis honestly says “unresolved” instead of inventing history.</div>
-      <div class="look">👀 flip 字源 first / 故事 first and feel the difference</div>
+      <div class="d">Story-first entry: a rich mnemonic leads.</div>
     </a>
     <a class="ixc" href="series-gao.html">
       <div class="big" style="color:var(--sound)">告</div>
       <div class="t">Sound series — gào family</div>
       <div class="d">Flip-card prediction trainer: 誥 郜 浩 皓 造, sorted by sound drift. Guess before you tap.</div>
-      <div class="look">👀 this is the “predict characters you never studied” party trick</div>
     </a>
-  </div>
-
-  <div class="note" style="margin-top:24px">
-    <strong>What to give feedback on:</strong> Does the color language explain itself? Do the 故事/字源 labels make sense without instructions? Is the depth dial or 📖 study mode better? Do the voiced sentences + A/B loop feel like studying or like a gimmick? What's missing?
-  </div>
-
-  <div class="foot">
-    Tsumugu Encoding Dictionary — a prototype of the Tsumugu project's dictionary layer. Entries are clean-authored from open sources and original analysis, using (but not limited to) the functional-component framework (form 形 / meaning 義 / sound 聲 / empty 空) and the Rules of Effective Memorization. Stories are labeled 故事 and optimize for memory; analysis is labeled 字源 and cites or abstains. Audio: Qwen3-TTS (Serena), batch-generated locally; browser voice as fallback where clips are pending.
   </div>
 </div>
 </body>

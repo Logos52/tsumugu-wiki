@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>告 sound series — mock A · drift ladder</title>
+<style>
+:root{
+  --bg:#0b1018; --bg2:#101826; --card:#131e30; --card2:#182740;
+  --line:#233650; --text:#dbe7f5; --dim:#8aa0bd; --faint:#5d7390;
+  --accent:#7aa2ff; --sound:#fb923c; --story:#e8b35a;
+  --zh:"Kaiti TC","DFKai-SB","BiauKai","Noto Serif TC",serif;
+  --ui:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--ui);line-height:1.55}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.nav{display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--line);background:var(--bg2);position:sticky;top:0;z-index:20;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.02em;color:var(--text)}
+.brand .ko{font-family:var(--zh);color:var(--accent);margin-right:6px}
+.brand small{color:var(--faint);font-weight:400;margin-left:8px}
+.spacer{flex:1}
+.mocktag{font-size:12px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:3px 11px;background:var(--card)}
+.mocktag:hover{border-color:var(--accent);color:var(--text);text-decoration:none}
+
+.wrap{max-width:740px;margin:0 auto;padding:32px 20px 90px}
+
+/* ── donor hero, anchored at the top of the ladder ── */
+.hero{display:flex;gap:26px;align-items:flex-start;flex-wrap:wrap;margin-bottom:8px}
+.hero .glyph{font-family:var(--zh);font-size:108px;line-height:1;color:var(--sound);padding:20px 24px;background:var(--card);border:1px solid var(--line);border-radius:18px;cursor:pointer}
+.hero .glyph:hover{border-color:var(--sound)}
+.hero .hmeta{flex:1;min-width:230px;padding-top:8px}
+.reading{font-size:21px}
+.zy{font-family:var(--zh);margin-right:9px}
+.hmean{color:var(--faint);font-size:13px;margin-top:4px}
+.promise{color:var(--dim);max-width:520px;font-size:14.5px;margin:12px 0 0}
+
+/* ── the ladder ── */
+.ladder{position:relative;padding-left:42px;margin-top:26px}
+.ladder::before{content:"";position:absolute;left:12px;top:4px;bottom:8px;width:3px;border-radius:3px;
+  background:linear-gradient(180deg,var(--sound) 0%,var(--story) 52%,var(--accent) 100%)}
+
+.rung{position:relative;margin:30px 0 12px}
+.band:first-of-type .rung{margin-top:6px}
+.rung::before{content:"";position:absolute;left:-36px;top:5px;width:13px;height:13px;border-radius:50%}
+.b1 .rung::before{background:var(--sound);box-shadow:0 0 14px rgba(251,146,60,.55)}
+.b2 .rung::before{background:var(--story);box-shadow:0 0 14px rgba(232,179,90,.45)}
+.b3 .rung::before{background:var(--accent);box-shadow:0 0 14px rgba(122,162,255,.45)}
+.rname{font-size:13px;letter-spacing:.18em;font-weight:700}
+.b1 .rname{color:var(--sound)}
+.b2 .rname{color:var(--story)}
+.b3 .rname{color:var(--accent)}
+.rlabel{color:var(--dim);font-size:13px;margin-top:1px}
+
+.member{position:relative;display:flex;gap:18px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin:10px 0;cursor:pointer;transition:border-color .2s}
+.member:hover{border-color:var(--accent)}
+.member::before{content:"";position:absolute;left:-34px;top:30px;width:9px;height:9px;border-radius:50%;background:var(--line)}
+.b1 .member.open::before{background:var(--sound)}
+.b2 .member.open::before{background:var(--story)}
+.b3 .member.open::before{background:var(--accent)}
+.mg{font-family:var(--zh);font-size:58px;line-height:1.05;min-width:64px;text-align:center}
+.mr{flex:1;padding-top:5px}
+.hint{color:var(--faint);font-size:13px;border:1px dashed var(--line);border-radius:9px;padding:8px 13px;display:inline-block}
+.member.open .hint{display:none}
+.answer{display:none}
+.member.open .answer{display:block;animation:fadein .25s ease}
+@keyframes fadein{from{opacity:0;transform:translateY(3px)}to{opacity:1;transform:none}}
+.ardg{font-size:19px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.agl{color:var(--dim);font-size:14px;margin-top:3px}
+.adrift{display:inline-block;font-size:11px;letter-spacing:.06em;border:1px solid;border-radius:999px;padding:2px 10px;margin-top:9px}
+.b1 .adrift{color:var(--sound);border-color:var(--sound)}
+.b2 .adrift{color:var(--story);border-color:var(--story)}
+.b3 .adrift{color:var(--accent);border-color:var(--accent)}
+
+.pl{border:1px solid var(--line);background:var(--card2);color:var(--text);border-radius:9px;padding:4px 11px;font-size:13px;cursor:pointer}
+.pl:hover{border-color:var(--accent)}
+.pl.playing{border-color:var(--accent);color:var(--accent)}
+
+/* ── examples ── */
+.sec{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px 20px;margin:36px 0 0}
+.sec h2{margin:0 0 6px;font-size:13px;letter-spacing:.14em;color:var(--faint);font-weight:600}
+.exintro{color:var(--dim);font-size:14px;margin:0 0 10px;max-width:540px}
+.sent{border-top:1px dashed var(--line);padding:13px 0}
+.sent:first-of-type{border-top:0}
+.srow{display:flex;gap:11px;align-items:baseline}
+.srow .n{color:var(--faint);font-size:12px;min-width:16px}
+.zh{font-family:var(--zh);font-size:21px;flex:1}
+.tr{color:var(--dim);font-size:14px;margin:4px 0 0 27px}
+.chips{margin:6px 0 0 27px}
+.chip{display:inline-block;font-size:12px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:1px 10px;margin:3px 6px 0 0}
+.chip b{font-family:var(--zh);color:var(--text);font-weight:600;margin-right:4px}
+.tgt{background:rgba(251,146,60,.16);border-bottom:2px solid var(--sound);border-radius:3px}
+.gw{border-bottom:1px dotted var(--faint)}
+.exnote{color:var(--faint);font-size:12.5px;margin-top:12px}
+.exnote .zhs{font-family:var(--zh);color:var(--dim)}
+
+/* ── closing observation: where the ladder lands ── */
+.obs{margin:34px 0 0;padding:20px 24px;border-left:3px solid var(--sound);border-radius:0 12px 12px 0;font-size:16.5px;background:linear-gradient(90deg,rgba(251,146,60,.07),transparent 70%)}
+
+@media(max-width:480px){
+  .wrap{padding:24px 14px 70px}
+  .hero{gap:16px}
+  .hero .glyph{font-size:68px;padding:14px 17px}
+  .reading{font-size:18px}
+  .ladder{padding-left:28px}
+  .ladder::before{left:6px}
+  .rung::before{left:-25px;width:11px;height:11px}
+  .member{gap:13px;padding:13px 14px}
+  .member::before{left:-24px;top:26px}
+  .mg{font-size:44px;min-width:48px}
+  .ardg{font-size:17px}
+  .zh{font-size:19px}
+  .obs{font-size:15.5px;padding:16px 18px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="index.html"><span class="ko">紡</span>Tsumugu Encoding Dictionary <small>sound series</small></a>
+  <span class="spacer"></span>
+  <a class="mocktag" href="index.html">mock A · drift ladder</a>
+</nav>
+
+<div class="wrap">
+
+  <div class="hero">
+    <div class="glyph" lang="zh-Hant" data-audio="../audio/gao-char.mp3">告</div>
+    <div class="hmeta">
+      <div class="reading"><span class="zy" lang="zh-Hant">ㄍㄠˋ</span>gào <button class="pl" data-audio="../audio/gao-char.mp3" aria-label="play">▶</button></div>
+      <div class="hmean">to tell, to announce</div>
+      <p class="promise">Learn the donor once, and every character below becomes a guess you can make instead of a stranger. Tap a card to check yourself — they’re sorted from “sounds exactly like 告” to “drifted further.” That ordering is the lesson.</p>
+    </div>
+  </div>
+
+  <div class="ladder">
+
+    <div class="band b1">
+      <div class="rung">
+        <div class="rname">EXACT</div>
+        <div class="rlabel">same sound as the donor</div>
+      </div>
+      <div class="member">
+        <div class="mg" lang="zh-Hant">誥</div>
+        <div class="mr">
+          <span class="hint">guess the sound — tap to check</span>
+          <div class="answer">
+            <div class="ardg"><span><span class="zy" lang="zh-Hant">ㄍㄠˋ</span>gào</span> <button class="pl" data-audio="../audio/gao-decree.mp3" aria-label="play">▶</button></div>
+            <div class="agl">a formal decree (words 言 + 告)</div>
+            <span class="adrift">no drift</span>
+          </div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="mg" lang="zh-Hant">郜</div>
+        <div class="mr">
+          <span class="hint">guess the sound — tap to check</span>
+          <div class="answer">
+            <div class="ardg"><span><span class="zy" lang="zh-Hant">ㄍㄠˋ</span>gào</span> <button class="pl" data-audio="../audio/gao-state.mp3" aria-label="play">▶</button></div>
+            <div class="agl">an ancient state / surname (告 + 阝 town)</div>
+            <span class="adrift">no drift</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="band b2">
+      <div class="rung">
+        <div class="rname">INITIAL DRIFT</div>
+        <div class="rlabel">g → h (a regular, learnable shift)</div>
+      </div>
+      <div class="member">
+        <div class="mg" lang="zh-Hant">浩</div>
+        <div class="mr">
+          <span class="hint">guess the sound — tap to check</span>
+          <div class="answer">
+            <div class="ardg"><span><span class="zy" lang="zh-Hant">ㄏㄠˋ</span>hào</span> <button class="pl" data-audio="../audio/hao-vast.mp3" aria-label="play">▶</button></div>
+            <div class="agl">vast, grand (water 氵 + 告)</div>
+            <span class="adrift">g → h</span>
+          </div>
+        </div>
+      </div>
+      <div class="member">
+        <div class="mg" lang="zh-Hant">皓</div>
+        <div class="mr">
+          <span class="hint">guess the sound — tap to check</span>
+          <div class="answer">
+            <div class="ardg"><span><span class="zy" lang="zh-Hant">ㄏㄠˋ</span>hào</span> <button class="pl" data-audio="../audio/hao-bright.mp3" aria-label="play">▶</button></div>
+            <div class="agl">bright white (white 白 + 告)</div>
+            <span class="adrift">g → h</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="band b3">
+      <div class="rung">
+        <div class="rname">FURTHER DRIFT</div>
+        <div class="rlabel">initial changed more, rhyme held</div>
+      </div>
+      <div class="member">
+        <div class="mg" lang="zh-Hant">造</div>
+        <div class="mr">
+          <span class="hint">guess the sound — tap to check</span>
+          <div class="answer">
+            <div class="ardg"><span><span class="zy" lang="zh-Hant">ㄗㄠˋ</span>zào</span> <button class="pl" data-audio="../audio/zao-char.mp3" aria-label="play">▶</button></div>
+            <div class="agl">to make, build (walking 辶 + 告) — <a href="../zao.html">full entry</a></div>
+            <span class="adrift">g → z · rhyme -ào intact</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="sec">
+    <h2>例句 EXAMPLES</h2>
+    <p class="exintro">Hear 告 living inside common words you already half-know.</p>
+
+    <div class="sent">
+      <div class="srow"><span class="n">1</span>
+        <div class="zh" lang="zh-Hant">我想<span class="tgt">告</span>訴你一件事。</div>
+        <button class="pl" data-audio="../audio/gao-ex-0.mp3" aria-label="play">▶</button>
+      </div>
+      <div class="tr">I want to tell you something.</div>
+    </div>
+
+    <div class="sent">
+      <div class="srow"><span class="n">2</span>
+        <div class="zh" lang="zh-Hant">老師<span class="tgt">告</span>訴我們，明天要<span class="gw">考試</span>。</div>
+        <button class="pl" data-audio="../audio/gao-ex-1.mp3" aria-label="play">▶</button>
+      </div>
+      <div class="tr">The teacher told us we have a test tomorrow.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">考試</b>kǎoshì — exam, test</span></div>
+    </div>
+
+    <div class="sent">
+      <div class="srow"><span class="n">3</span>
+        <div class="zh" lang="zh-Hant">電視上的<span class="gw">廣<span class="tgt">告</span></span>太多了。</div>
+        <button class="pl" data-audio="../audio/gao-ex-2.mp3" aria-label="play">▶</button>
+      </div>
+      <div class="tr">There are too many ads on TV.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">廣告</b>guǎnggào — advertisement</span></div>
+    </div>
+
+    <div class="sent">
+      <div class="srow"><span class="n">4</span>
+        <div class="zh" lang="zh-Hant">我下星期要<span class="gw">交</span>一份<span class="gw">報<span class="tgt">告</span></span>。</div>
+        <button class="pl" data-audio="../audio/gao-ex-3.mp3" aria-label="play">▶</button>
+      </div>
+      <div class="tr">I have to hand in a report next week.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">交</b>jiāo — to hand in, submit</span><span class="chip"><b lang="zh-Hant">報告</b>bàogào — report</span></div>
+    </div>
+
+    <div class="sent">
+      <div class="srow"><span class="n">5</span>
+        <div class="zh" lang="zh-Hant">媽媽<span class="gw">警<span class="tgt">告</span></span>我，不要太晚回家。</div>
+        <button class="pl" data-audio="../audio/gao-ex-4.mp3" aria-label="play">▶</button>
+      </div>
+      <div class="tr">Mom warned me not to come home too late.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">警告</b>jǐnggào — to warn</span></div>
+    </div>
+
+    <div class="exnote"><span class="zhs" lang="zh-Hant">告訴 → 廣告 → 報告 → 警告</span>: one donor, four everyday words.</div>
+  </section>
+
+  <div class="obs">The rhyme -ào survives in every member; only the initial drifts, and it drifts in bands. After two or three series, you start predicting characters you’ve never studied.</div>
+
+</div>
+
+<script>
+const player = new Audio();
+let lastBtn = null;
+function stopPlaying(){ if(lastBtn){ lastBtn.classList.remove('playing'); lastBtn = null; } }
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-audio]');
+  if (b) {
+    if (lastBtn === b && !player.paused) { player.pause(); stopPlaying(); return; }
+    stopPlaying();
+    player.src = b.getAttribute('data-audio');
+    player.play();
+    b.classList.add('playing'); lastBtn = b;
+    player.onended = stopPlaying;
+    return;
+  }
+  const m = e.target.closest('.member');
+  if (m && !e.target.closest('a')) m.classList.toggle('open');
+});
+</script>
+</body>
+</html>

@@ -7,10 +7,11 @@
 <link rel="stylesheet" href="styles.css">
 <script src="app.js" defer></script>
 </head>
-<body data-depth="3" data-lead-default="origin">
+<body data-depth="3">
 
 <nav class="nav">
-  <a class="brand" href="index.html"><span class="ko">紡</span>Tsumugu Encoding Dictionary <small>prototype</small></a>
+  <a class="brand" href="index.html"><span class="ko">紡</span>Tsumugu Encoding Dictionary</a>
+  <a class="pill" href="about.html">how to read these pages</a>
   <span class="spacer"></span>
   <button class="pill" id="legendBtn">● colors?</button>
   <button class="pill" id="playEntry">▶ play entry</button>
@@ -25,49 +26,37 @@
 </div>
 
 <div class="wrap">
-  <div class="crumb"><a href="index.html">entries</a> → 射 <span style="margin-left:8px;color:var(--accent)">· the corruption showcase — why “body” isn’t a body</span></div>
+  <div class="crumb"><a href="index.html">entries</a> → 射</div>
 
   <div class="head">
     <div class="glyph" data-play-self data-say="射" data-audio="audio/she-char.mp3">射</div>
     <div class="meta">
       <div class="reading"><span class="zy">ㄕㄜˋ</span> shè <button class="play" data-play-self data-say="射" data-audio="audio/she-char.mp3">🔊</button></div>
-      <div class="tags">verb — to shoot</div>
+      <div class="tags">verb — to shoot; to emit · <span style="font-family:var(--zh)">用弓把箭發出去</span></div>
       <div class="compose">射 = <span class="c empty" title="空 — corruption: was a drawn bow, not a body">身</span> + <span class="c form" title="形 — a hand">寸</span></div>
-      <div class="controls">
-        <span class="seg">
-          <button data-depth="1">structure</button>
-          <button data-depth="2">+ meanings</button>
-          <button data-depth="3">+ expert</button>
-        </span>
-        <button class="btn" id="studyBtn">📖 study mode</button>
-        <span class="seg">
-          <button data-lead="origin">字源 first</button>
-          <button data-lead="story">故事 first</button>
-        </span>
-      </div>
     </div>
   </div>
 
   <div class="duo">
-    <section class="sec card-origin" data-d="1" data-study data-speak data-audio="audio/she-origin.mp3" data-say="字源層：射的身，不是身體。古文字裡，它本來是一張拉開的弓，箭在弦上。後來字形訛變，寫成了身。寸是一隻手。">
-      <h2><span class="tagchip origin">字源</span> FORM <button class="play">🔊</button> <button class="btn swave">🌊 A/B loop</button></h2>
+    <section class="sec card-origin" data-d="1" data-study data-speak data-audio="audio/she-origin.mp3" data-say="射的身，不是身體。古文字裡，它本來是一張拉開的弓，箭在弦上。後來字形慢慢走樣，寫成了身。寸是一隻手。">
+      <h2><span class="tagchip origin">字源</span> FORM <span style="text-transform:none;letter-spacing:0;color:var(--faint);font-weight:400">— what the parts really do</span> <button class="play">🔊</button> <button class="btn swave">🌊 A/B loop</button></h2>
       <div class="wavebox" style="margin-left:0"><div class="wv"></div><div style="display:flex;gap:8px;margin-top:6px"><button class="btn wplay">▶</button><button class="btn wloop">🔁 loop</button><button class="btn wspeed">1×</button></div><div class="hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-      <p>The left side is <em>not</em> a body. In early forms the graph showed <strong>a drawn bow with an arrow on the string</strong>; over centuries of copying, the bow’s shape drifted until scribes regularized it into the look-alike <span style="color:var(--empty)">身</span> “body.” It does <strong>no semantic work</strong> here — it’s a fossil of a picture. The right side <span style="color:var(--form)">寸</span> is a hand, releasing the string.<span class="g s" title="sourced — Wiktionary glyph origin; standard paleography">ⓢ</span></p>
+      <p>The left side is <em>not</em> a body. In early forms the graph showed <strong>a drawn bow with an arrow on the string</strong>; over centuries of copying, the bow’s shape drifted until scribes regularized it into the look-alike <span style="color:var(--empty)">身</span> “body.” It does <strong>no semantic work</strong> here — it’s a fossil of a picture. The right side <span style="color:var(--form)">寸</span> is a hand, releasing the string.</p>
       <div class="comp empty">
         <div class="cg">身</div>
-        <div class="fn"><span class="rb empty">空</span>corruption — originally a drawn bow + arrow, later miswritten as “body”<small>reading it as “body” is exactly the folk trap this dictionary exists to flag</small></div>
+        <div class="fn"><span class="rb empty">空</span>a standing body seen from the side, belly emphasized — the body<small>the “body” reading is a look-alike; the original picture was the bow</small></div>
       </div>
       <div class="comp form">
         <div class="cg">寸</div>
-        <div class="fn"><span class="rb form">形</span>a hand — the archer’s release<small>from 又 “hand” with a mark</small></div>
+        <div class="fn"><span class="rb form">形</span>a hand with a mark at the wrist<small>the archer’s hand, releasing the string</small></div>
       </div>
     </section>
 
-    <section class="sec card-story" data-d="1" data-study data-speak data-audio="audio/she-story.mp3" data-say="故事：一個身體，挽起弓，一寸一寸把弦拉滿，咻，射出去。">
-      <h2><span class="tagchip story">故事</span> STORY <button class="play">🔊</button> <button class="btn swave">🌊 A/B loop</button></h2>
+    <section class="sec card-story" data-d="1" data-study data-speak data-audio="audio/she-story.mp3" data-say="一個身體，側過來，挽起弓，一寸一寸把弦拉滿。咻，射出去。">
+      <h2><span class="tagchip story">故事</span> STORY <span style="text-transform:none;letter-spacing:0;color:var(--faint);font-weight:400">— a scene to remember it by</span> <button class="play">🔊</button> <button class="btn swave">🌊 A/B loop</button></h2>
       <div class="wavebox" style="margin-left:0"><div class="wv"></div><div style="display:flex;gap:8px;margin-top:6px"><button class="btn wplay">▶</button><button class="btn wloop">🔁 loop</button><button class="btn wspeed">1×</button></div><div class="hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-      <p class="zhline">一個「<strong>身</strong>」體側過來，一「<strong>寸</strong>」一寸把弦拉滿 — 咻！</p>
-      <p style="color:var(--dim)">A <em>body</em> leans into the bow, drawing the string <em>inch by inch</em> — release! Wrong as history (the 字源 card just told you why), excellent as a hook. You get to choose which one does the remembering — that’s the whole design.</p>
+      <p class="zhline">一個「<strong>身</strong>」體側過來，一「<strong>寸</strong>」一寸把弦拉滿——咻！</p>
+      <p style="color:var(--dim)">A <em>body</em> leans into the bow. <em>Inch by inch</em> (寸), the string comes back — then the release: 咻, the arrow is gone.</p>
     </section>
   </div>
 
@@ -83,7 +72,7 @@
   </section>
 
   <section class="sec" data-d="2" data-study>
-    <h2>例句 EXAMPLES — <span style="text-transform:none;letter-spacing:0;color:var(--dim)">five voiced, graded sentences</span> <button class="btn" id="playAll" style="margin-left:auto">▶ all</button></h2>
+    <h2>例句 EXAMPLES <button class="btn" id="playAll" style="margin-left:auto">▶ all</button></h2>
 
     <div class="sent">
       <div class="row"><span class="n">1</span>
@@ -114,18 +103,18 @@
 
     <div class="sent">
       <div class="row"><span class="n">4</span>
-        <span class="zh-t" data-audio="audio/she-ex-3.mp3" data-say="這部電影影射了很多社會問題。">這部電影<span class="w st-new" data-gloss="yǐngshè — to allude / insinuate">影<span class="w tgt" style="border-bottom:0">射</span></span>了很多社會問題。</span>
+        <span class="zh-t" data-audio="audio/she-ex-3.mp3" data-say="他射門得分了！">他<span class="w tgt">射</span>門得分了！</span>
       </div>
-      <div class="tr">The film alludes to many social issues. (There’s the meaning-tree’s deepest arrow, in the wild.)</div>
+      <div class="tr">He shot — and scored!</div>
       <div class="tools"><button class="btn sp">▶</button><button class="btn swave">🌊 A/B loop</button></div>
       <div class="wavebox"><div class="wv"></div><div style="display:flex;gap:8px;margin-top:6px"><button class="btn wplay">▶</button><button class="btn wloop">🔁 loop</button><button class="btn wspeed">1×</button></div><div class="hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
     </div>
 
     <div class="sent">
       <div class="row"><span class="n">5</span>
-        <span class="zh-t" data-audio="audio/she-ex-4.mp3" data-say="他射門得分了！">他<span class="w tgt">射</span>門得分了！</span>
+        <span class="zh-t" data-audio="audio/she-ex-4.mp3" data-say="這部電影影射了很多社會問題。">這部電影<span class="w st-new" data-gloss="yǐngshè — to allude / insinuate">影<span class="w tgt" style="border-bottom:0">射</span></span>了很多社會問題。</span>
       </div>
-      <div class="tr">He shot — and scored!</div>
+      <div class="tr">The film alludes to many social issues.</div>
       <div class="tools"><button class="btn sp">▶</button><button class="btn swave">🌊 A/B loop</button></div>
       <div class="wavebox"><div class="wv"></div><div style="display:flex;gap:8px;margin-top:6px"><button class="btn wplay">▶</button><button class="btn wloop">🔁 loop</button><button class="btn wspeed">1×</button></div><div class="hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
     </div>
@@ -136,29 +125,18 @@
   <section class="sec" data-d="2" data-study>
     <h2>RELATED — <span style="text-transform:none;letter-spacing:0;color:var(--dim)">a real body vs a fossil “body”</span></h2>
     <div class="rel">
-      <span class="relc"><span class="rg"><span class="shared" style="color:var(--empty)">身</span>體</span><span class="rd">shēntǐ</span><span class="why">a REAL 身 — body</span></span>
-      <span class="relc"><span class="rg">謝</span><span class="rd">xiè</span><span class="why">射 inside — as sound</span></span>
-      <span class="relc"><span class="rg">矮</span><span class="rd">ǎi</span><span class="why">the famous mix-up pair</span></span>
+      <span class="relc"><span class="rg"><span class="shared" style="color:var(--empty)">身</span>體</span><span class="rd">shēntǐ</span><span class="why">a real 身 — an actual body</span></span>
+      <span class="relc"><span class="rg">謝</span><span class="rd">xiè</span><span class="why">射 inside — as the sound</span></span>
+      <span class="relc"><span class="rg">矮</span><span class="rd">ǎi</span><span class="why">the old “swapped meanings” riddle — its 矢 is a real arrow; 射’s “body” is not</span></span>
     </div>
     <p style="color:var(--dim);font-size:14px;margin-top:10px">In 身體 the 身 really is a body. In 射 it only looks like one. Same shape, different jobs — the colors are the tell.</p>
   </section>
 
-  <section class="sec" data-d="3" data-study data-speak data-audio="audio/she-expert.mp3" data-say="專家層：甲骨文的射，畫的是弓和箭。金文加上手。弓形後來訛變成身。">
-    <h2>EXPERT — EVOLUTION <button class="play">🔊</button> <button class="btn swave">🌊 A/B loop</button></h2>
+  <section class="sec" data-d="3" data-study data-speak data-audio="audio/she-evolution.mp3" data-say="甲骨文的射，畫的是弓和箭。金文加上手。弓的形狀後來慢慢走樣，變成了身。">
+    <h2>EVOLUTION <button class="play">🔊</button> <button class="btn swave">🌊 A/B loop</button></h2>
     <div class="wavebox" style="margin-left:0"><div class="wv"></div><div style="display:flex;gap:8px;margin-top:6px"><button class="btn wplay">▶</button><button class="btn wloop">🔁 loop</button><button class="btn wspeed">1×</button></div><div class="hint">Drag on the waveform to select a slice, then 🔁 to drill it.</div></div>
-    <div class="evostrip">
-      <div class="evo ph"><div class="eg">射</div><div class="el">甲骨文 — bow + arrow · image pending</div></div>
-      <div class="evo ph"><div class="eg">射</div><div class="el">金文 — hand added · image pending</div></div>
-      <div class="evo ph"><div class="eg">射</div><div class="el">小篆 — bow regularizing · image pending</div></div>
-      <div class="evo"><div class="eg">射</div><div class="el">楷書 — “body” fossil</div></div>
-    </div>
-    <p>Oracle-bone forms draw the bow and arrow directly; bronze forms add the hand. By the seal script the bow’s silhouette had drifted close enough to 身 that later regularization locked the corruption in. This is the canonical example of why decomposition must stop at <em>functional</em> components: the modern shapes can lie.<span class="g s" title="sourced — Wiktionary glyph origin; standard paleography">ⓢ</span></p>
+    <p>Oracle-bone forms draw the bow and arrow directly; bronze forms add the hand. By the seal script the bow’s silhouette had drifted close enough to 身 that later regularization locked the corruption in — the modern character keeps a picture it no longer draws.</p>
   </section>
-
-  <div class="revealbar"><button class="btn">Reveal next ↓</button></div>
-
-  <div class="note">Voice: pre-baked Qwen3-TTS (Serena) where a clip exists; your browser’s voice otherwise. Grounding marks: ⓢ sourced · ⓐ authored · ⚠ speculative.</div>
-  <div class="foot">Tsumugu Encoding Dictionary — prototype for feedback. The 字源/故事 pair on this page is the product thesis in miniature: truth and memory, side by side, labeled.</div>
 </div>
 </body>
 </html>

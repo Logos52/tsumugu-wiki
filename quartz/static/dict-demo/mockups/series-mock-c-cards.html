@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>告 sound series — mock C · prediction deck</title>
+<style>
+:root{
+  --bg:#0b1018; --bg2:#101826; --card:#131e30; --card2:#182740;
+  --line:#233650; --text:#dbe7f5; --dim:#8aa0bd; --faint:#5d7390;
+  --accent:#7aa2ff; --sound:#fb923c; --story:#e8b35a;
+  --zh:"Kaiti TC","DFKai-SB","BiauKai","Noto Serif TC",serif;
+  --ui:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--ui);line-height:1.5}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+.nav{display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--line);background:var(--bg2);position:sticky;top:0;z-index:20;flex-wrap:wrap}
+.brand{font-weight:700;letter-spacing:.02em;color:var(--text)}
+.brand .ko{font-family:var(--zh);color:var(--accent);margin-right:6px}
+.brand small{color:var(--faint);font-weight:400;margin-left:8px}
+.spacer{flex:1}
+.mocktag{font-size:12px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:3px 11px;background:var(--card)}
+.mocktag:hover{border-color:var(--accent);color:var(--text);text-decoration:none}
+
+.wrap{max-width:820px;margin:0 auto;padding:38px 18px 90px}
+
+/* ── deck cover: the donor ── */
+.cover{position:relative;max-width:460px;margin:0 auto 46px}
+.cover::before,.cover::after{content:"";position:absolute;inset:0;border-radius:20px;border:1px solid var(--line);background:var(--card2)}
+.cover::before{transform:rotate(-2.4deg) translate(-7px,7px)}
+.cover::after{transform:rotate(1.8deg) translate(8px,10px)}
+.coverinner{position:relative;z-index:1;background:var(--card);border:1px solid var(--line);border-radius:20px;padding:30px 26px;text-align:center;box-shadow:0 10px 32px rgba(0,0,0,.45)}
+.cglyph{font-family:var(--zh);font-size:104px;line-height:1;color:var(--sound)}
+.cread{font-size:20px;margin-top:10px}
+.zy{font-family:var(--zh);margin-right:8px}
+.cmean{color:var(--faint);font-size:13px;margin-top:3px}
+.promise{color:var(--dim);font-size:14px;margin:14px auto 0;max-width:360px;text-align:left}
+
+/* ── shelves ── */
+.shelf{margin:34px 0}
+.shelfhead{display:flex;gap:12px;align-items:baseline;margin-bottom:14px;flex-wrap:wrap}
+.bname{font-size:13px;letter-spacing:.18em;font-weight:700}
+.shelf.b1 .bname{color:var(--sound)}
+.shelf.b2 .bname{color:var(--story)}
+.shelf.b3 .bname{color:var(--accent)}
+.blabel{color:var(--dim);font-size:13px}
+.cards{display:flex;gap:18px;flex-wrap:wrap;padding-bottom:18px;border-bottom:2px solid var(--line)}
+
+/* flip cards */
+.fcard{width:196px;height:248px;perspective:1000px;cursor:pointer}
+.finner{position:relative;width:100%;height:100%;transition:transform .5s cubic-bezier(.3,.8,.3,1);transform-style:preserve-3d}
+.fcard.flipped .finner{transform:rotateY(180deg)}
+.face{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;border-radius:16px;border:1px solid var(--line);background:var(--card);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:14px;text-align:center}
+.fcard:hover .face{border-color:var(--accent)}
+.front .fg{font-family:var(--zh);font-size:74px;line-height:1.1}
+.front .tap{color:var(--faint);font-size:12px;margin-top:16px;border:1px dashed var(--line);border-radius:999px;padding:3px 12px}
+.back{transform:rotateY(180deg);background:var(--card2);justify-content:center;gap:6px}
+.back .bg-sm{font-family:var(--zh);font-size:26px;color:var(--faint);position:absolute;top:10px;left:14px}
+.back .rdg{font-size:19px}
+.back .gl{color:var(--dim);font-size:13px}
+.back .drift{display:inline-block;font-size:11px;letter-spacing:.05em;border:1px solid;border-radius:999px;padding:2px 10px;margin-top:4px}
+.shelf.b1 .drift{color:var(--sound);border-color:var(--sound)}
+.shelf.b2 .drift{color:var(--story);border-color:var(--story)}
+.shelf.b3 .drift{color:var(--accent);border-color:var(--accent)}
+.back .more{font-size:12px;margin-top:2px}
+
+.pl{border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:999px;padding:5px 14px;font-size:13px;cursor:pointer;margin-top:6px}
+.pl:hover{border-color:var(--accent)}
+.pl.playing{border-color:var(--accent);color:var(--accent)}
+
+/* ── examples: listen cards with big thumb targets ── */
+.exhead{margin:42px 0 4px;font-size:13px;letter-spacing:.14em;color:var(--faint);font-weight:600}
+.exintro{color:var(--dim);font-size:14px;margin:0 0 14px}
+.lcard{display:flex;gap:16px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;margin:12px 0}
+.bigpl{flex:none;width:48px;height:48px;border-radius:50%;border:1px solid var(--line);background:var(--card2);color:var(--text);font-size:17px;cursor:pointer}
+.bigpl:hover{border-color:var(--accent)}
+.bigpl.playing{border-color:var(--accent);color:var(--accent);box-shadow:0 0 0 3px rgba(122,162,255,.18)}
+.zh{font-family:var(--zh);font-size:21px}
+.tr{color:var(--dim);font-size:14px;margin-top:3px}
+.chips{margin-top:6px}
+.chip{display:inline-block;font-size:12px;color:var(--dim);border:1px solid var(--line);border-radius:999px;padding:1px 10px;margin:3px 6px 0 0}
+.chip b{font-family:var(--zh);color:var(--text);font-weight:600;margin-right:4px}
+.tgt{background:rgba(251,146,60,.16);border-bottom:2px solid var(--sound);border-radius:3px}
+.gw{border-bottom:1px dotted var(--faint)}
+.exnote{color:var(--faint);font-size:12.5px;margin:12px 2px 0}
+.exnote .zhs{font-family:var(--zh);color:var(--dim)}
+
+/* ── the closing card ── */
+.obscard{position:relative;max-width:460px;margin:46px auto 0}
+.obscard::before{content:"";position:absolute;inset:0;border-radius:18px;border:1px solid var(--line);background:var(--card2);transform:rotate(1.6deg) translate(6px,7px)}
+.obsinner{position:relative;z-index:1;background:var(--card);border:1px solid var(--sound);border-radius:18px;padding:22px 24px;font-size:15.5px;box-shadow:0 8px 26px rgba(0,0,0,.4)}
+
+/* ── mobile: shelves become swipe rows, snap per card ── */
+@media(max-width:480px){
+  .wrap{padding:28px 14px 70px}
+  .cglyph{font-size:84px}
+  .cards{flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding:2px 2px 16px;margin:0 -14px;padding-left:14px;padding-right:14px}
+  .fcard{flex:none;width:66vw;height:256px;scroll-snap-align:center}
+  .lcard{gap:12px;padding:14px}
+  .zh{font-size:19px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <a class="brand" href="index.html"><span class="ko">紡</span>Tsumugu Encoding Dictionary <small>sound series</small></a>
+  <span class="spacer"></span>
+  <a class="mocktag" href="index.html">mock C · prediction deck</a>
+</nav>
+
+<div class="wrap">
+
+  <div class="cover">
+    <div class="coverinner">
+      <div class="cglyph" lang="zh-Hant">告</div>
+      <div class="cread"><span class="zy" lang="zh-Hant">ㄍㄠˋ</span>gào</div>
+      <div class="cmean">to tell, to announce</div>
+      <button class="pl" data-audio="../audio/gao-char.mp3" aria-label="play">▶ play</button>
+      <p class="promise">Learn the donor once, and every character below becomes a guess you can make instead of a stranger. Tap a card to check yourself — they’re sorted from “sounds exactly like 告” to “drifted further.” That ordering is the lesson.</p>
+    </div>
+  </div>
+
+  <section class="shelf b1">
+    <div class="shelfhead"><span class="bname">EXACT</span><span class="blabel">same sound as the donor</span></div>
+    <div class="cards">
+      <div class="fcard">
+        <div class="finner">
+          <div class="face front"><div class="fg" lang="zh-Hant">誥</div><div class="tap">tap to check</div></div>
+          <div class="face back">
+            <span class="bg-sm" lang="zh-Hant">誥</span>
+            <div class="rdg"><span class="zy" lang="zh-Hant">ㄍㄠˋ</span>gào</div>
+            <div class="gl">a formal decree (words 言 + 告)</div>
+            <span class="drift">no drift</span>
+            <button class="pl" data-audio="../audio/gao-decree.mp3" aria-label="play">▶</button>
+          </div>
+        </div>
+      </div>
+      <div class="fcard">
+        <div class="finner">
+          <div class="face front"><div class="fg" lang="zh-Hant">郜</div><div class="tap">tap to check</div></div>
+          <div class="face back">
+            <span class="bg-sm" lang="zh-Hant">郜</span>
+            <div class="rdg"><span class="zy" lang="zh-Hant">ㄍㄠˋ</span>gào</div>
+            <div class="gl">an ancient state / surname (告 + 阝 town)</div>
+            <span class="drift">no drift</span>
+            <button class="pl" data-audio="../audio/gao-state.mp3" aria-label="play">▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="shelf b2">
+    <div class="shelfhead"><span class="bname">INITIAL DRIFT</span><span class="blabel">g → h (a regular, learnable shift)</span></div>
+    <div class="cards">
+      <div class="fcard">
+        <div class="finner">
+          <div class="face front"><div class="fg" lang="zh-Hant">浩</div><div class="tap">tap to check</div></div>
+          <div class="face back">
+            <span class="bg-sm" lang="zh-Hant">浩</span>
+            <div class="rdg"><span class="zy" lang="zh-Hant">ㄏㄠˋ</span>hào</div>
+            <div class="gl">vast, grand (water 氵 + 告)</div>
+            <span class="drift">g → h</span>
+            <button class="pl" data-audio="../audio/hao-vast.mp3" aria-label="play">▶</button>
+          </div>
+        </div>
+      </div>
+      <div class="fcard">
+        <div class="finner">
+          <div class="face front"><div class="fg" lang="zh-Hant">皓</div><div class="tap">tap to check</div></div>
+          <div class="face back">
+            <span class="bg-sm" lang="zh-Hant">皓</span>
+            <div class="rdg"><span class="zy" lang="zh-Hant">ㄏㄠˋ</span>hào</div>
+            <div class="gl">bright white (white 白 + 告)</div>
+            <span class="drift">g → h</span>
+            <button class="pl" data-audio="../audio/hao-bright.mp3" aria-label="play">▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="shelf b3">
+    <div class="shelfhead"><span class="bname">FURTHER DRIFT</span><span class="blabel">initial changed more, rhyme held</span></div>
+    <div class="cards">
+      <div class="fcard">
+        <div class="finner">
+          <div class="face front"><div class="fg" lang="zh-Hant">造</div><div class="tap">tap to check</div></div>
+          <div class="face back">
+            <span class="bg-sm" lang="zh-Hant">造</span>
+            <div class="rdg"><span class="zy" lang="zh-Hant">ㄗㄠˋ</span>zào</div>
+            <div class="gl">to make, build (walking 辶 + 告)</div>
+            <span class="drift">g → z · rhyme -ào intact</span>
+            <div class="more"><a href="../zao.html">full entry</a></div>
+            <button class="pl" data-audio="../audio/zao-char.mp3" aria-label="play">▶</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <h2 class="exhead">例句 EXAMPLES</h2>
+  <p class="exintro">Hear 告 living inside common words you already half-know.</p>
+
+  <div class="lcard">
+    <button class="bigpl" data-audio="../audio/gao-ex-0.mp3" aria-label="play">▶</button>
+    <div>
+      <div class="zh" lang="zh-Hant">我想<span class="tgt">告</span>訴你一件事。</div>
+      <div class="tr">I want to tell you something.</div>
+    </div>
+  </div>
+
+  <div class="lcard">
+    <button class="bigpl" data-audio="../audio/gao-ex-1.mp3" aria-label="play">▶</button>
+    <div>
+      <div class="zh" lang="zh-Hant">老師<span class="tgt">告</span>訴我們，明天要<span class="gw">考試</span>。</div>
+      <div class="tr">The teacher told us we have a test tomorrow.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">考試</b>kǎoshì — exam, test</span></div>
+    </div>
+  </div>
+
+  <div class="lcard">
+    <button class="bigpl" data-audio="../audio/gao-ex-2.mp3" aria-label="play">▶</button>
+    <div>
+      <div class="zh" lang="zh-Hant">電視上的<span class="gw">廣<span class="tgt">告</span></span>太多了。</div>
+      <div class="tr">There are too many ads on TV.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">廣告</b>guǎnggào — advertisement</span></div>
+    </div>
+  </div>
+
+  <div class="lcard">
+    <button class="bigpl" data-audio="../audio/gao-ex-3.mp3" aria-label="play">▶</button>
+    <div>
+      <div class="zh" lang="zh-Hant">我下星期要<span class="gw">交</span>一份<span class="gw">報<span class="tgt">告</span></span>。</div>
+      <div class="tr">I have to hand in a report next week.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">交</b>jiāo — to hand in, submit</span><span class="chip"><b lang="zh-Hant">報告</b>bàogào — report</span></div>
+    </div>
+  </div>
+
+  <div class="lcard">
+    <button class="bigpl" data-audio="../audio/gao-ex-4.mp3" aria-label="play">▶</button>
+    <div>
+      <div class="zh" lang="zh-Hant">媽媽<span class="gw">警<span class="tgt">告</span></span>我，不要太晚回家。</div>
+      <div class="tr">Mom warned me not to come home too late.</div>
+      <div class="chips"><span class="chip"><b lang="zh-Hant">警告</b>jǐnggào — to warn</span></div>
+    </div>
+  </div>
+
+  <div class="exnote"><span class="zhs" lang="zh-Hant">告訴 → 廣告 → 報告 → 警告</span>: one donor, four everyday words.</div>
+
+  <div class="obscard">
+    <div class="obsinner">The rhyme -ào survives in every member; only the initial drifts, and it drifts in bands. After two or three series, you start predicting characters you’ve never studied.</div>
+  </div>
+
+</div>
+
+<script>
+const player = new Audio();
+let lastBtn = null;
+function stopPlaying(){ if(lastBtn){ lastBtn.classList.remove('playing'); lastBtn = null; } }
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-audio]');
+  if (b) {
+    if (lastBtn === b && !player.paused) { player.pause(); stopPlaying(); return; }
+    stopPlaying();
+    player.src = b.getAttribute('data-audio');
+    player.play();
+    b.classList.add('playing'); lastBtn = b;
+    player.onended = stopPlaying;
+    return;
+  }
+  const c = e.target.closest('.fcard');
+  if (c && !e.target.closest('a')) c.classList.toggle('flipped');
+});
+</script>
+</body>
+</html>

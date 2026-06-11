@@ -18,7 +18,7 @@ This appears on three kinds of element:
 | element | example | clip naming |
 |---|---|---|
 | example sentence | `.sent > .zh-t[data-audio]` | `<term>-ex-<n>.mp3` |
-| narration section | `.sec[data-audio]` (字源/故事/釋義/EXPERT) | `<term>-origin/story/meanings/expert.mp3` |
+| narration section | `.sec[data-audio]` (字源/故事/釋義/EVOLUTION) | `<term>-origin/story/meanings/evolution.mp3` |
 | definition / headword | `.def.zh` (with `data-src` on its wavebox), glyph | `<term>-def-zh.mp3`, `<term>-char.mp3` |
 
 **Waveforms (🌊 A/B-loop):** any line that should be loopable has a `.swave` toggle and a
@@ -64,7 +64,7 @@ scoring with `difflib`:
 - **< 0.80** → BAD (regenerate) — for real sentences
 - **≤ 2 chars** → `chr`: isolated glyphs/headwords transcribe unreliably; reported, never flagged.
 
-Long teacher narrations (字源/釋義/EXPERT) can sit ~0.78–0.85 purely from rare-character
+Long teacher narrations (字源/釋義/EVOLUTION) can sit ~0.78–0.85 purely from rare-character
 ASR noise (彳 辵 金文 …) on **good** audio. `fix` keeps a regenerated take only if it beats
 the original, so it never churns audio that's actually fine — a stubborn ~0.80 narration is
 a known false positive, not a defect.

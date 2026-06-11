@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>告 series — formatting mockups · Tsumugu Encoding Dictionary</title>
+<style>
+:root{
+  --bg:#0b1018; --bg2:#101826; --card:#131e30; --card2:#182740;
+  --line:#233650; --text:#dbe7f5; --dim:#8aa0bd; --faint:#5d7390;
+  --accent:#7aa2ff; --sound:#fb923c; --story:#e8b35a;
+  --zh:"Kaiti TC","DFKai-SB","BiauKai","Noto Serif TC",serif;
+  --ui:-apple-system,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:var(--ui);line-height:1.55}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.nav{display:flex;align-items:center;gap:12px;padding:12px 18px;border-bottom:1px solid var(--line);background:var(--bg2)}
+.brand{font-weight:700;letter-spacing:.02em;color:var(--text)}
+.brand .ko{font-family:var(--zh);color:var(--accent);margin-right:6px}
+.brand small{color:var(--faint);font-weight:400;margin-left:8px}
+.wrap{max-width:720px;margin:0 auto;padding:36px 20px 80px}
+h1{font-size:22px;margin:0 0 6px}
+h1 .zhs{font-family:var(--zh);color:var(--sound)}
+.sub{color:var(--dim);font-size:14px;margin:0 0 26px;max-width:560px}
+.opt{display:flex;gap:18px;align-items:flex-start;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px;margin:14px 0;color:var(--text)}
+.opt:hover{border-color:var(--accent);text-decoration:none}
+.badge{flex:none;width:46px;height:46px;border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:20px;font-weight:700}
+.opt.a .badge{background:rgba(251,146,60,.14);color:var(--sound)}
+.opt.b .badge{background:rgba(122,162,255,.14);color:var(--accent)}
+.opt.c .badge{background:rgba(232,179,90,.14);color:var(--story)}
+.opt .t{font-weight:600;font-size:16px}
+.opt .d{color:var(--dim);font-size:13.5px;margin-top:3px}
+.opt .go{margin-left:auto;color:var(--faint);align-self:center}
+.note{color:var(--faint);font-size:12.5px;margin-top:24px;border-top:1px dashed var(--line);padding-top:14px;max-width:560px}
+@media(max-width:480px){
+  .wrap{padding:26px 14px 60px}
+  .opt{gap:14px;padding:15px 16px}
+}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+  <span class="brand"><span class="ko">紡</span>Tsumugu Encoding Dictionary <small>sound series · formatting mockups</small></span>
+</nav>
+
+<div class="wrap">
+  <h1><span class="zhs" lang="zh-Hant">告</span> series — three formatting directions</h1>
+  <p class="sub">Pick one. Same locked content in all three — donor, drift bands, members, the five voiced examples, the closing observation. Only the formatting changes.</p>
+
+  <a class="opt a" href="series-mock-a-bands.html">
+    <span class="badge">A</span>
+    <span>
+      <span class="t">Drift ladder</span>
+      <span class="d" style="display:block">Editorial, top-to-bottom: the bands as a visual ladder of drift, donor anchored at the top, inline reveal per member. Optimized for reading the page as a lesson.</span>
+    </span>
+    <span class="go">→</span>
+  </a>
+
+  <a class="opt b" href="series-mock-b-table.html">
+    <span class="badge">B</span>
+    <span>
+      <span class="t">Reference table</span>
+      <span class="d" style="display:block">Dense and scannable: banded table with masked readings, initial and rhyme in their own columns — the rhyme literally lines up. Optimized for review and pattern-spotting.</span>
+    </span>
+    <span class="go">→</span>
+  </a>
+
+  <a class="opt c" href="series-mock-c-cards.html">
+    <span class="badge">C</span>
+    <span>
+      <span class="t">Prediction deck</span>
+      <span class="d" style="display:block">Flashcard-first: the donor is the deck cover, each band is a shelf of flip cards, big tap targets. Optimized for self-testing and mobile.</span>
+    </span>
+    <span class="go">→</span>
+  </a>
+
+  <div class="note">Decision aid for PRD §9 Q1 (series-page formatting). Not linked from the demo index.</div>
+</div>
+
+</body>
+</html>
