@@ -272,3 +272,19 @@
     if (window.speechSynthesis) speechSynthesis.getVoices(); // warm voices
   });
 })();
+
+// Shift-to-peek definitions: hold Shift, hover a marked word
+(() => {
+  const on = v => document.body.classList.toggle('gloss-on', v);
+  addEventListener('keydown', e => { if (e.key === 'Shift') on(true); });
+  addEventListener('keyup',   e => { if (e.key === 'Shift') on(false); });
+  addEventListener('blur',    () => on(false));
+  const first = document.querySelector('.w[data-gloss]');
+  if (first) {
+    const sec = first.closest('section') || document.body;
+    const h = document.createElement('div');
+    h.className = 'hint';
+    h.textContent = 'Hold \u21e7 Shift and hover a word to peek its meaning.';
+    sec.insertBefore(h, sec.firstChild);
+  }
+})();
