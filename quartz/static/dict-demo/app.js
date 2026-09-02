@@ -62,6 +62,19 @@
     const secs = Array.from(document.querySelectorAll(".sec[data-speak]")).filter(
       (s) => s.offsetParent !== null && !s.classList.contains("veiled")
     );
+    if (!secs.length) {
+      const g = document.querySelector("[data-play-self]");
+      if (g) await playEl(g);
+      for (const sent of document.querySelectorAll(".sent")) {
+        if (seq !== speakSeq) return;
+        sent.classList.add("playing");
+        sent.scrollIntoView({ behavior: "smooth", block: "center" });
+        await playEl(sent.querySelector(".zh-t"));
+        sent.classList.remove("playing");
+        await new Promise((r) => setTimeout(r, 350));
+      }
+      return;
+    }
     for (const s of secs) {
       if (seq !== speakSeq) return;
       s.scrollIntoView({ behavior: "smooth", block: "center" });
@@ -273,18 +286,71 @@
   });
 })();
 
-// Shift-to-peek definitions: hold Shift, hover a marked word
+// Peek & reveal layer: word glosses (shift-hover or tap) + translation modes
 (() => {
-  const on = v => document.body.classList.toggle('gloss-on', v);
-  addEventListener('keydown', e => { if (e.key === 'Shift') on(true); });
-  addEventListener('keyup',   e => { if (e.key === 'Shift') on(false); });
-  addEventListener('blur',    () => on(false));
-  const first = document.querySelector('.w[data-gloss]');
-  if (first) {
-    const sec = first.closest('section') || document.body;
-    const h = document.createElement('div');
-    h.className = 'hint';
-    h.textContent = 'Hold \u21e7 Shift and hover a word to peek its meaning.';
-    sec.insertBefore(h, sec.firstChild);
-  }
+  const on = (v) => document.body.classList.toggle("gloss-on", v);
+  addEventListener("keydown", (e) => { if (e.key === "Shift") on(true); });
+  addEventListener("keyup", (e) => { if (e.key === "Shift") on(false); });
+  addEventListener("blur", () => on(false));
+
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".w[data-gloss]").forEach((w) => {
+      w.addEventListener("click", (ev) => {
+        ev.stopPropagation();
+        const had = w.querySelector(".tip");
+        document.querySelectorAll(".w .tip").forEach((x) => x.remove());
+        if (!had) {
+          const s = document.createElement("span");
+          s.className = "tip";
+          s.textContent = w.dataset.gloss;
+          w.appendChild(s);
+        }
+      });
+    });
+    document.addEventListener("click", (ev) => {
+      if (!ev.target.closest(".w")) document.querySelectorAll(".w .tip").forEach((x) => x.remove());
+    });
+
+    const firstSent = document.querySelector(".sent");
+    if (!firstSent) return;
+    const exSec = firstSent.closest("section") || firstSent.parentElement;
+    const h2 = exSec.querySelector("h2");
+
+    const seg = document.createElement("div");
+    seg.className = "seg trseg";
+    seg.innerHTML = '<button data-tr="tap">譯 on tap</button><button data-tr="blur">blurred</button><button data-tr="always">shown</button>';
+    if (h2) h2.insertAdjacentElement("afterend", seg);
+    else exSec.insertBefore(seg, exSec.firstChild);
+
+    const hint = document.createElement("div");
+    hint.className = "hint";
+    seg.insertAdjacentElement("afterend", hint);
+
+    const hints = {
+      tap: "Tap a sentence for its translation. Hold ⇧ Shift and hover — or tap — a dotted word for its gloss.",
+      blur: "Tap a blurred line to focus it. ⇧ Shift + hover — or tap — a dotted word for its gloss.",
+      always: "⇧ Shift + hover — or tap — a dotted word for its gloss.",
+    };
+    function setTr(m) {
+      document.body.dataset.tr = m;
+      localStorage.setItem("ted-tr", m);
+      seg.querySelectorAll("button").forEach((b) => b.classList.toggle("on", b.dataset.tr === m));
+      hint.textContent = hints[m];
+      document.querySelectorAll(".sent.open").forEach((s) => s.classList.remove("open"));
+    }
+    seg.querySelectorAll("button").forEach((b) => b.addEventListener("click", () => setTr(b.dataset.tr)));
+    setTr(localStorage.getItem("ted-tr") || "tap");
+
+    document.querySelectorAll(".sent").forEach((s) => {
+      const z = s.querySelector(".zh-t");
+      if (z) z.addEventListener("click", (ev) => {
+        if (ev.target.closest(".w")) return;
+        if (document.body.dataset.tr === "tap") s.classList.toggle("open");
+      });
+      const tr = s.querySelector(".tr");
+      if (tr) tr.addEventListener("click", () => {
+        if (document.body.dataset.tr === "blur") s.classList.toggle("open");
+      });
+    });
+  });
 })();

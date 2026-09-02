@@ -1,4 +1,4 @@
-# tsumugu-wiki
+# tsumugu-wiki — what this repo is (2026-09-02)
 
 A Quartz v4 fork that publishes Traditional Chinese learning material to GitHub Pages at https://logos52.github.io/tsumugu-wiki/. The site home and the zh-Hant landing both redirect to https://logos52.github.io (the vault site). What still lives here: 7 YouTube video reading bundles under content/zh-Hant/sources/videos/, GSM1 and GSM2 course vocabulary at content/zh-Hant/gsm1 and gsm2, 15 pedagogy pages under content/zh-Hant/meta/pedagogy/, 819 mp3 pronunciation clips, and the encoding-dictionary demo at quartz/static/dict-demo/.
 
@@ -8,16 +8,3 @@ A Quartz v4 fork that publishes Traditional Chinese learning material to GitHub 
 - Deploy: .github/workflows/deploy.yml on push to main.
 - ARCHITECTURE.md is the June 2026 design spec. Its status block at the top says what shipped and what did not.
 - Upstream Quartz docs: https://quartz.jzhao.xyz. This is not the upstream repo.
-
-
----
-
-Upstream Quartz README follows.
-
-## Sponsors
-
-<p align="center">
-  <a href="https://github.com/sponsors/jackyzha0">
-    <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
-  </a>
-</p>

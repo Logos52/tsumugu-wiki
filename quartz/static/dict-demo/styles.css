@@ -204,3 +204,13 @@ body.study .revealbar { display: block; }
 
 .note { color: var(--faint); font-size: 13px; background: var(--bg2); border: 1px solid var(--line); border-radius: 10px; padding: 10px 14px; margin: 16px 0; }
 .foot { color: var(--faint); font-size: 12px; border-top: 1px solid var(--line); margin-top: 40px; padding-top: 14px; }
+
+.sent .zh-t { position: relative; }
+body[data-tr="tap"] .sent .tr { display: none; }
+body[data-tr="tap"] .sent.open .tr { display: block; }
+body[data-tr="tap"] .sent .zh-t { cursor: pointer; }
+body[data-tr="blur"] .sent .tr { filter: blur(6px); cursor: pointer; }
+body[data-tr="blur"] .sent.open .tr { filter: none; }
+.w { position: relative; }
+.w .tip { position: absolute; left: 0; top: -2.1em; background: #1d2c47; color: var(--text); font-family: var(--ui); font-size: 12px; padding: 3px 9px; border-radius: 7px; white-space: nowrap; border: 1px solid var(--line); z-index: 6; }
+.trseg { margin: 6px 0 2px; }
