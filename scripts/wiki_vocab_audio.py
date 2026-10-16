@@ -405,3 +405,10 @@ def _imports(name: str) -> bool:
     except ImportError:
         return False
     return True
+
+
+def _red_proof() -> None:
+    try:
+        _imports("mlx_whisper")
+    except Exception:
+        pass
