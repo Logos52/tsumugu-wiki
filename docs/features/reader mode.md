@@ -8,7 +8,7 @@ Reader Mode is a feature that allows users to focus on the content by hiding the
 
 ## Configuration
 
-Reader Mode is enabled by default. To disable it, you can remove the component from your layout configuration in `quartz.layout.ts`:
+Reader Mode starts on. To turn it off, remove the component from your layout configuration in `quartz.layout.ts`:
 
 ```ts
 // Remove or comment out this line

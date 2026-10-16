@@ -25,4 +25,4 @@ plugins: {
 
 ## Customization
 
-This functionality is provided by the [[RoamFlavoredMarkdown]] plugin. See the plugin page for customization options.
+The [[RoamFlavoredMarkdown]] plugin provides this. See the plugin page for customization options.
