@@ -328,16 +328,6 @@
     {
       "rule": "R16",
       "file": "docs/layout.md",
-      "fingerprint": "7833db18"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/layout.md",
-      "fingerprint": "7833db18"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/layout.md",
       "fingerprint": "61c8ace0"
     },
     {
@@ -399,21 +389,6 @@
       "rule": "R16",
       "file": "docs/showcase.md",
       "fingerprint": "c8efdc84"
-    },
-    {
-      "rule": "R23",
-      "file": "docs/advanced/architecture.md",
-      "fingerprint": "60b016aa"
-    },
-    {
-      "rule": "R23",
-      "file": "docs/configuration.md",
-      "fingerprint": "12eb65a6"
-    },
-    {
-      "rule": "R23",
-      "file": "docs/layout.md",
-      "fingerprint": "7833db18"
     },
     {
       "rule": "R21",
