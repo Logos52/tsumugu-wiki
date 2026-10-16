@@ -366,16 +366,6 @@
       "fingerprint": "6eccc2ef"
     },
     {
-      "rule": "R21",
-      "file": "scripts/migrate_video_bundles.py",
-      "fingerprint": "9d5d8a2b"
-    },
-    {
-      "rule": "R21",
-      "file": "scripts/wiki_vocab_audio.py",
-      "fingerprint": "ccaec2db"
-    },
-    {
       "rule": "R0",
       "file": "eslint:repo",
       "fingerprint": "1e22fb30"
