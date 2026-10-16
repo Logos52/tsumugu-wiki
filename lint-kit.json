@@ -13,7 +13,13 @@
   ],
   "boundaryFiles": [],
   "baseline": ".lint-kit-baseline.json",
-  "rules": {},
+  "rules": {
+    "R10": "error",
+    "R5": "error",
+    "R8": "error",
+    "R23": "error",
+    "R16": "error"
+  },
   "prose": {
     "allow": []
   }
