@@ -8,7 +8,3 @@ A Quartz v4 fork that publishes Traditional Chinese learning material to GitHub 
 - Deploy: .github/workflows/deploy.yml on push to main.
 - ARCHITECTURE.md is the June 2026 design spec. Its status block at the top says what shipped and what did not.
 - Upstream Quartz docs: https://quartz.jzhao.xyz. This is not the upstream repo.
-
-## Rules
-
-- this line has no rule id
