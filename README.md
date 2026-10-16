@@ -21,3 +21,5 @@ Upstream Quartz README follows.
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+[proof](./does-not-exist-proof.md)
