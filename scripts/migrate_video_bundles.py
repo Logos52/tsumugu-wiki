@@ -208,7 +208,7 @@ def main() -> None:
             elif dest.exists():
                 text = dest.read_text(encoding="utf-8")
             else:
-                print(f"SKIP missing {slug}-{role}")
+                emit(f"SKIP missing {slug}-{role}")
                 continue
             text = unstamp(text)
             text = rewrite_links(text, slug)
@@ -216,15 +216,19 @@ def main() -> None:
             dest.write_text(text, encoding="utf-8")
             if flat.exists() and flat != dest:
                 flat.unlink()
-                print(f"mv {flat.name} → {dest.relative_to(ROOT)}")
+                emit(f"mv {flat.name} → {dest.relative_to(ROOT)}")
 
         idx = bundle / "index.md"
         if not idx.exists() or "--" not in idx.read_text(encoding="utf-8")[:200]:
             idx.write_text(source_index(meta), encoding="utf-8")
-            print(f"wrote {idx.relative_to(ROOT)}")
+            emit(f"wrote {idx.relative_to(ROOT)}")
 
-    print("done — video bundles under content/zh-Hant/sources/videos/")
+    emit("done — video bundles under content/zh-Hant/sources/videos/")
 
 
 if __name__ == "__main__":
     main()
+
+def emit(text: str) -> None:
+    import sys
+    sys.stdout.write(f"{text}\n")

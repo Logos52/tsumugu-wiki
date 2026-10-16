@@ -20,7 +20,8 @@
     "R23": "error",
     "R16": "error",
     "R1": "error",
-    "R22": "error"
+    "R22": "error",
+    "R4": "error"
   },
   "prose": {
     "allow": []

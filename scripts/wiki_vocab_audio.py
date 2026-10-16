@@ -186,9 +186,9 @@ def cmd_render(args) -> None:
     entries = collect_entries(args.slug)
     pending = [e for e in entries if not e["mp3"].exists()]
     if not pending:
-        print(f"render: all {len(entries)} clips exist")
+        emit(f"render: all {len(entries)} clips exist")
         return
-    print(f"render: synthesizing {len(pending)} missing clip(s)…")
+    emit(f"render: synthesizing {len(pending)} missing clip(s)…")
     tmp = Path("/tmp/wiki_vocab_tts")
     tmp.mkdir(exist_ok=True)
     batch = [{"index": i, "text": e["say"], "instruct": None,
@@ -200,13 +200,13 @@ def cmd_render(args) -> None:
     for i, e in enumerate(pending):
         it = rep.get(i, {})
         if not it.get("ok"):
-            print(f"  FAIL {e['slug']}/{e['clip']}: {it.get('error')}")
+            emit(f"  FAIL {e['slug']}/{e['clip']}: {it.get('error')}")
             continue
         wav_to_mp3(Path(it["outWav"]), e["mp3"])
         readings.setdefault(e["slug"], {})[e["clip"]] = {
             "say": e["say"], "verified": False, "ratio": None,
         }
-        print(f"  ✓ {e['slug']}/{e['clip']}")
+        emit(f"  ✓ {e['slug']}/{e['clip']}")
     save_manifest(m)
 
 
@@ -241,21 +241,21 @@ def cmd_audit(args) -> None:
     save_manifest(m)
     rows.sort(key=lambda x: x[0])
     if not args.json:
-        print(f"{'ratio':>6}  {'clip':<40} status")
+        emit(f"{'ratio':>6}  {'clip':<40} status")
     for r, e, heard in rows:
         status = "OK" if r >= OK else "BAD"
         if not args.json:
-            print(f"{r:6.2f}  {e['slug']}/{e['clip']:<28} [{status}] {e['say']}")
+            emit(f"{r:6.2f}  {e['slug']}/{e['clip']:<28} [{status}] {e['say']}")
             if r < 0.95:
-                print(f"{'':>6}  {'':40} heard: {heard}")
+                emit(f"{'':>6}  {'':40} heard: {heard}")
     report = AUDIO_ROOT / "_qa_report.json"
     report.write_text(json.dumps({"flagged": [f"{e['slug']}/{e['clip']}" for e in flagged]},
                                  ensure_ascii=False, indent=2), encoding="utf-8")
     if args.json:
-        print(json.dumps({"flagged": [f"{e['slug']}/{e['clip']}" for e in flagged]}))
+        emit(json.dumps({"flagged": [f"{e['slug']}/{e['clip']}" for e in flagged]}))
     else:
-        print(f"\nFLAGGED: {len(flagged)} — run `fix` to regenerate")
-        print(f"report: {report}")
+        emit(f"\nFLAGGED: {len(flagged)} — run `fix` to regenerate")
+        emit(f"report: {report}")
 
 
 def cmd_fix(args) -> None:
@@ -274,7 +274,7 @@ def cmd_fix(args) -> None:
 
     fix = [entries[k] for k in fix_keys if k in entries]
     if not fix:
-        print("Nothing to fix.")
+        emit("Nothing to fix.")
         return
 
     def hear(f: Path) -> str:
@@ -288,13 +288,13 @@ def cmd_fix(args) -> None:
     for e in fix:
         r0 = score(e["say"], hear(e["mp3"]), norm) if e["mp3"].exists() else 0.0
         best[f"{e['slug']}/{e['clip']}"] = {"ratio": r0, "orig": r0, "wav": None, "e": e}
-        print(f"baseline {e['slug']}/{e['clip']}: {r0:.2f}")
+        emit(f"baseline {e['slug']}/{e['clip']}: {r0:.2f}")
 
     for rnd, temp in enumerate(TEMPS):
         pending = [k for k, b in best.items() if b["ratio"] < ACCEPT]
         if not pending:
             break
-        print(f"\n-- round {rnd} (temp={temp}) — {len(pending)} pending --")
+        emit(f"\n-- round {rnd} (temp={temp}) — {len(pending)} pending --")
         idx = {i: k for i, k in enumerate(pending)}
         items = [{"index": i, "text": best[k]["e"]["say"], "instruct": None,
                   "outWav": str(tmp / f"r{rnd}-{i}.wav")} for i, k in idx.items()]
@@ -302,10 +302,10 @@ def cmd_fix(args) -> None:
         for i, k in idx.items():
             it = rep.get(i, {})
             if not it.get("ok"):
-                print(f"   {k}: gen failed: {it.get('error')}")
+                emit(f"   {k}: gen failed: {it.get('error')}")
                 continue
             r = score(best[k]["e"]["say"], hear(Path(it["outWav"])), norm)
-            print(f"   {'✓' if r >= ACCEPT else ' '} {k}: {r:.2f}")
+            emit(f"   {'✓' if r >= ACCEPT else ' '} {k}: {r:.2f}")
             if r > best[k]["ratio"]:
                 best[k].update(ratio=r, wav=it["outWav"])
 
@@ -325,11 +325,11 @@ def cmd_fix(args) -> None:
             rec["ratio"] = round(b["ratio"], 3)
             rec["verified"] = b["ratio"] >= OK
             changed.append(k)
-            print(f"  REPLACED {k}: {b['orig']:.2f} -> {b['ratio']:.2f}")
+            emit(f"  REPLACED {k}: {b['orig']:.2f} -> {b['ratio']:.2f}")
         else:
-            print(f"  kept     {k}: {b['orig']:.2f} (best {b['ratio']:.2f})")
+            emit(f"  kept     {k}: {b['orig']:.2f} (best {b['ratio']:.2f})")
     save_manifest(m)
-    print(f"changed: {len(changed)}")
+    emit(f"changed: {len(changed)}")
 
 
 def voiced_block(e: dict) -> str:
@@ -362,7 +362,7 @@ def cmd_stamp(args) -> None:
         slug = slug_from_file(vf)
         entries = [e for e in collect_entries(slug) if e["vocab_md"] == vf]
         ok = sum(1 for e in entries if e["mp3"].exists())
-        print(f"stamp: {vf.relative_to(HERE)} — {ok}/{len(entries)} clips (build-time VocabVoice)")
+        emit(f"stamp: {vf.relative_to(HERE)} — {ok}/{len(entries)} clips (build-time VocabVoice)")
 
 
 def cmd_all(args) -> None:
@@ -405,3 +405,8 @@ def _imports(name: str) -> bool:
     except ImportError:
         return False
     return True
+
+
+def emit(text: str) -> None:
+    import sys
+    sys.stdout.write(f"{text}\n")
