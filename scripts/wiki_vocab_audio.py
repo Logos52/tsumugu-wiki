@@ -52,11 +52,8 @@ def tsumugu_repo() -> Path:
 
 
 def ensure_runtime() -> None:
-    try:
-        import mlx_whisper
+    if _imports("mlx_whisper"):
         return
-    except Exception:
-        pass
     if os.environ.get("WIKI_VOCAB_REEXEC"):
         sys.exit("Voice venv still cannot import mlx_whisper.")
     repo = tsumugu_repo()
@@ -147,11 +144,14 @@ def collect_entries(slug_filter: str | None = None) -> list[dict]:
 def _normalizer():
     try:
         import opencc
-        conv = opencc.OpenCC("t2s").convert
-    except Exception:
-        conv = lambda s: s
-    return lambda s: re.sub(r"[^一-鿿]", "", conv(s or ""))
+        convert = opencc.OpenCC("t2s").convert
+    except ImportError:
+        convert = _same_text
+    return lambda s: re.sub(r"[^一-鿿]", "", convert(s or ""))
 
+
+def _same_text(text: str) -> str:
+    return text
 
 def score(expect: str, heard: str, norm) -> float:
     return difflib.SequenceMatcher(None, norm(expect), norm(heard)).ratio()
@@ -397,3 +397,11 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def _imports(name: str) -> bool:
+    try:
+        __import__(name)
+    except ImportError:
+        return False
+    return True
