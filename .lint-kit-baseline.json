@@ -86,16 +86,6 @@
       "fingerprint": "10f94bb4"
     },
     {
-      "rule": "R10",
-      "file": "package.json",
-      "fingerprint": "fe0c521a"
-    },
-    {
-      "rule": "R10",
-      "file": ".github/workflows/lint-kit.yml",
-      "fingerprint": "e48bceee"
-    },
-    {
       "rule": "R0",
       "file": "check:fixtures",
       "fingerprint": "78de9189"
