@@ -93,7 +93,7 @@
     {
       "rule": "R10",
       "file": ".github/workflows/lint-kit.yml",
-      "fingerprint": "f9249cc3"
+      "fingerprint": "e48bceee"
     },
     {
       "rule": "R0",
