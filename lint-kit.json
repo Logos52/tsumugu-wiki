@@ -1,0 +1,20 @@
+{
+  "profile": "adopt",
+  "languages": ["ts", "py"],
+  "ignore": ["node_modules/**", "dist/**", ".git/**", "coverage/**", "quartz/**"],
+  "proseGlobs": [
+    "README.md",
+    "**/README.md",
+    "AGENTS.md",
+    "CLAUDE.md",
+    "docs/**/*.md",
+    "content/index.md",
+    "content/zh-Hant/index.md"
+  ],
+  "boundaryFiles": [],
+  "baseline": ".lint-kit-baseline.json",
+  "rules": {},
+  "prose": {
+    "allow": []
+  }
+}

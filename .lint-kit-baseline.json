@@ -1,0 +1,654 @@
+{
+  "entries": [
+    {
+      "rule": "R1",
+      "file": "index.d.ts",
+      "fingerprint": "6d07ab4e"
+    },
+    {
+      "rule": "R1",
+      "file": "quartz.config.ts",
+      "fingerprint": "c03f8f82"
+    },
+    {
+      "rule": "R1",
+      "file": "quartz.config.ts",
+      "fingerprint": "904c2c83"
+    },
+    {
+      "rule": "R1",
+      "file": "quartz.layout.ts",
+      "fingerprint": "2cc954f4"
+    },
+    {
+      "rule": "R1",
+      "file": "quartz.layout.ts",
+      "fingerprint": "fe150b5f"
+    },
+    {
+      "rule": "R1",
+      "file": "quartz.layout.ts",
+      "fingerprint": "5e8b5ab9"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/wiki_vocab_audio.py",
+      "fingerprint": "f01877ef"
+    },
+    {
+      "rule": "R1",
+      "file": "scripts/wiki_vocab_audio.py",
+      "fingerprint": "ab6eaee1"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/migrate_video_bundles.py",
+      "fingerprint": "95e22fd4"
+    },
+    {
+      "rule": "R2",
+      "file": "scripts/wiki_vocab_audio.py",
+      "fingerprint": "f7d02d4c"
+    },
+    {
+      "rule": "R5",
+      "file": "tsconfig.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R5",
+      "file": "tsconfig.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "572d9aa0"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "572d9aa0"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "572d9aa0"
+    },
+    {
+      "rule": "R5",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "572d9aa0"
+    },
+    {
+      "rule": "R8",
+      "file": "rules.json",
+      "fingerprint": "10f94bb4"
+    },
+    {
+      "rule": "R10",
+      "file": "package.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R10",
+      "file": ".github/workflows/lint-kit.yml",
+      "fingerprint": "e48bceee"
+    },
+    {
+      "rule": "R0",
+      "file": "check:fixtures",
+      "fingerprint": "78de9189"
+    },
+    {
+      "rule": "R16",
+      "file": "CLAUDE.md",
+      "fingerprint": "a9ccb0d"
+    },
+    {
+      "rule": "R16",
+      "file": "content/index.md",
+      "fingerprint": "c95dd54b"
+    },
+    {
+      "rule": "R16",
+      "file": "content/index.md",
+      "fingerprint": "28a020b3"
+    },
+    {
+      "rule": "R16",
+      "file": "content/zh-Hant/index.md",
+      "fingerprint": "25d6764"
+    },
+    {
+      "rule": "R16",
+      "file": "content/zh-Hant/index.md",
+      "fingerprint": "fc2389c1"
+    },
+    {
+      "rule": "R16",
+      "file": "content/zh-Hant/index.md",
+      "fingerprint": "a2636d51"
+    },
+    {
+      "rule": "R16",
+      "file": "content/zh-Hant/index.md",
+      "fingerprint": "324a3dcc"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/architecture.md",
+      "fingerprint": "cb3e1f5b"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/architecture.md",
+      "fingerprint": "dc6bccea"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "666f8334"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "5f0523b1"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "666f8334"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "d1865f37"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "6aa84a5"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "13b023ec"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/making plugins.md",
+      "fingerprint": "c462d597"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/making plugins.md",
+      "fingerprint": "2e898e8f"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/making plugins.md",
+      "fingerprint": "51b92f5c"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/making plugins.md",
+      "fingerprint": "31c09c8e"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/authoring content.md",
+      "fingerprint": "1f8ccf44"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/authoring content.md",
+      "fingerprint": "f23a25d8"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/authoring content.md",
+      "fingerprint": "dd724535"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/configuration.md",
+      "fingerprint": "28e54c04"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/configuration.md",
+      "fingerprint": "ca64e8fe"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/configuration.md",
+      "fingerprint": "cd0cb2f"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/Citations.md",
+      "fingerprint": "ec269e02"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/Mermaid diagrams.md",
+      "fingerprint": "114adcd1"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/Obsidian compatibility.md",
+      "fingerprint": "4781027c"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/Obsidian compatibility.md",
+      "fingerprint": "71b70e58"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/OxHugo compatibility.md",
+      "fingerprint": "7b8a76f6"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/RSS Feed.md",
+      "fingerprint": "9c1ac589"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/Roam Research compatibility.md",
+      "fingerprint": "ac03d7b7"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/callouts.md",
+      "fingerprint": "15aba2cc"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/callouts.md",
+      "fingerprint": "a363da10"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/comments.md",
+      "fingerprint": "de28e4f"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/folder and tag listings.md",
+      "fingerprint": "b3d27ec5"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/full-text search.md",
+      "fingerprint": "e36b8626"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/full-text search.md",
+      "fingerprint": "550194c5"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/graph view.md",
+      "fingerprint": "e64c82b5"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/reader mode.md",
+      "fingerprint": "1ff379c3"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/social images.md",
+      "fingerprint": "15aba2cc"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/social images.md",
+      "fingerprint": "10cce281"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/syntax highlighting.md",
+      "fingerprint": "a35a9759"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/syntax highlighting.md",
+      "fingerprint": "108a445b"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/table of contents.md",
+      "fingerprint": "f2a091bf"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/features/wikilinks.md",
+      "fingerprint": "390816e4"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/hosting.md",
+      "fingerprint": "e3bc2b95"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/hosting.md",
+      "fingerprint": "2e7fcb5a"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/hosting.md",
+      "fingerprint": "f135c316"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/index.md",
+      "fingerprint": "303f74b9"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/index.md",
+      "fingerprint": "b3ea6c65"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/index.md",
+      "fingerprint": "ec6eaaa1"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/index.md",
+      "fingerprint": "932b0310"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/index.md",
+      "fingerprint": "932b0310"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/layout.md",
+      "fingerprint": "7833db18"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/layout.md",
+      "fingerprint": "7833db18"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/layout.md",
+      "fingerprint": "61c8ace0"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/migrating from Quartz 3.md",
+      "fingerprint": "2810f4dd"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/migrating from Quartz 3.md",
+      "fingerprint": "5b1012b8"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/migrating from Quartz 3.md",
+      "fingerprint": "2581a9c8"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/philosophy.md",
+      "fingerprint": "76ab5408"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/philosophy.md",
+      "fingerprint": "dc07b8f7"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/plugins/ComponentResources.md",
+      "fingerprint": "15581cf3"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/plugins/ContentIndex.md",
+      "fingerprint": "1daad73b"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/plugins/CreatedModifiedDate.md",
+      "fingerprint": "54ab7ec6"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/plugins/Description.md",
+      "fingerprint": "112a8a01"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/plugins/SyntaxHighlighting.md",
+      "fingerprint": "b5b4f30e"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/setting up your GitHub repository.md",
+      "fingerprint": "57387d3f"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/showcase.md",
+      "fingerprint": "c8efdc84"
+    },
+    {
+      "rule": "R23",
+      "file": "docs/advanced/architecture.md",
+      "fingerprint": "60b016aa"
+    },
+    {
+      "rule": "R23",
+      "file": "docs/configuration.md",
+      "fingerprint": "12eb65a6"
+    },
+    {
+      "rule": "R23",
+      "file": "docs/layout.md",
+      "fingerprint": "7833db18"
+    },
+    {
+      "rule": "R21",
+      "file": "package.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R21",
+      "file": ".github/workflows/deploy.yml",
+      "fingerprint": "3785333f"
+    },
+    {
+      "rule": "R21",
+      "file": ".github/workflows/lint-kit.yml",
+      "fingerprint": "159675f8"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/cli/constants.js",
+      "fingerprint": "d4f8c2aa"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/util/path.js",
+      "fingerprint": "6eccc2ef"
+    },
+    {
+      "rule": "R21",
+      "file": "scripts/migrate_video_bundles.py",
+      "fingerprint": "9d5d8a2b"
+    },
+    {
+      "rule": "R21",
+      "file": "scripts/wiki_vocab_audio.py",
+      "fingerprint": "ccaec2db"
+    },
+    {
+      "rule": "R0",
+      "file": "eslint:repo",
+      "fingerprint": "1e22fb30"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R22",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "8dc80a28"
+    },
+    {
+      "rule": "R22",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "8ef65cd1"
+    },
+    {
+      "rule": "R22",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "8ef65cd1"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "2ab478e6"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "203fa458"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "2ab478e6"
+    },
+    {
+      "rule": "R2",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "203fa458"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    },
+    {
+      "rule": "R4",
+      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
+      "fingerprint": "dee59bc8"
+    }
+  ]
+}
