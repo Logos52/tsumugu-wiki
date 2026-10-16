@@ -81,16 +81,6 @@
       "fingerprint": "572d9aa0"
     },
     {
-      "rule": "R8",
-      "file": "rules.json",
-      "fingerprint": "10f94bb4"
-    },
-    {
-      "rule": "R0",
-      "file": "check:fixtures",
-      "fingerprint": "78de9189"
-    },
-    {
       "rule": "R16",
       "file": "CLAUDE.md",
       "fingerprint": "a9ccb0d"
