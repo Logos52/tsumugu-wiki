@@ -56,31 +56,6 @@
       "fingerprint": "fe0c521a"
     },
     {
-      "rule": "R5",
-      "file": "tsconfig.json",
-      "fingerprint": "fe0c521a"
-    },
-    {
-      "rule": "R5",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "572d9aa0"
-    },
-    {
-      "rule": "R5",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "572d9aa0"
-    },
-    {
-      "rule": "R5",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "572d9aa0"
-    },
-    {
-      "rule": "R5",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "572d9aa0"
-    },
-    {
       "rule": "R16",
       "file": "CLAUDE.md",
       "fingerprint": "a9ccb0d"
