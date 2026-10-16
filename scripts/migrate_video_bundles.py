@@ -121,5 +121,3 @@ if __name__ == "__main__":
 def emit(text: str) -> None:
     import sys
     sys.stdout.write(f"{text}\n")
-
-import zlib
