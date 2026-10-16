@@ -7,16 +7,6 @@
     },
     {
       "rule": "R1",
-      "file": "quartz.config.js",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.config.js",
-      "fingerprint": "d90680eb"
-    },
-    {
-      "rule": "R1",
       "file": "quartz.config.ts",
       "fingerprint": "c03f8f82"
     },
@@ -24,21 +14,6 @@
       "rule": "R1",
       "file": "quartz.config.ts",
       "fingerprint": "904c2c83"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.layout.js",
-      "fingerprint": "2cc954f4"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.layout.js",
-      "fingerprint": "fe150b5f"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.layout.js",
-      "fingerprint": "5e8b5ab9"
     },
     {
       "rule": "R1",
@@ -118,7 +93,7 @@
     {
       "rule": "R10",
       "file": ".github/workflows/lint-kit.yml",
-      "fingerprint": "fa4e71c1"
+      "fingerprint": "f9249cc3"
     },
     {
       "rule": "R0",
@@ -492,6 +467,11 @@
     },
     {
       "rule": "R21",
+      "file": "quartz/plugins/vfile.ts",
+      "fingerprint": "68634de5"
+    },
+    {
+      "rule": "R21",
       "file": ".github/workflows/deploy.yml",
       "fingerprint": "3785333f"
     },
@@ -507,8 +487,58 @@
     },
     {
       "rule": "R21",
-      "file": "quartz/util/path.js",
-      "fingerprint": "6eccc2ef"
+      "file": "quartz/util/path.ts",
+      "fingerprint": "be65828e"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/components/Date.tsx",
+      "fingerprint": "574c995e"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/i18n/index.ts",
+      "fingerprint": "7fe266a4"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/util/theme.ts",
+      "fingerprint": "cb517909"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/util/resources.tsx",
+      "fingerprint": "c0e970c7"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/util/ctx.ts",
+      "fingerprint": "f90cd856"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/util/escape.ts",
+      "fingerprint": "dd14dfb3"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/plugins/emitters/contentIndex.tsx",
+      "fingerprint": "25e242a8"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/components/types.ts",
+      "fingerprint": "afcff8c5"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/plugins/types.ts",
+      "fingerprint": "d422983b"
+    },
+    {
+      "rule": "R21",
+      "file": "quartz/cfg.ts",
+      "fingerprint": "36451354"
     },
     {
       "rule": "R21",
