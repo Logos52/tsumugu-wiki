@@ -391,46 +391,6 @@
       "fingerprint": "1e22fb30"
     },
     {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/migrate_video_bundles.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
       "rule": "R2",
       "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
       "fingerprint": "2ab478e6"
@@ -441,36 +401,6 @@
       "fingerprint": "203fa458"
     },
     {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
       "rule": "R2",
       "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
       "fingerprint": "2ab478e6"
@@ -479,51 +409,6 @@
       "rule": "R2",
       "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
       "fingerprint": "203fa458"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
-    },
-    {
-      "rule": "R4",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "dee59bc8"
     }
   ]
 }
