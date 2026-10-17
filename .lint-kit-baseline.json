@@ -1,16 +1,6 @@
 {
   "entries": [
     {
-      "rule": "R2",
-      "file": "scripts/migrate_video_bundles.py",
-      "fingerprint": "95e22fd4"
-    },
-    {
-      "rule": "R2",
-      "file": "scripts/wiki_vocab_audio.py",
-      "fingerprint": "f7d02d4c"
-    },
-    {
       "rule": "R5",
       "file": "tsconfig.json",
       "fingerprint": "fe0c521a"
@@ -389,26 +379,6 @@
       "rule": "R0",
       "file": "eslint:repo",
       "fingerprint": "1e22fb30"
-    },
-    {
-      "rule": "R2",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "2ab478e6"
-    },
-    {
-      "rule": "R2",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "203fa458"
-    },
-    {
-      "rule": "R2",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "2ab478e6"
-    },
-    {
-      "rule": "R2",
-      "file": "/home/runner/work/tsumugu-wiki/tsumugu-wiki/scripts/wiki_vocab_audio.py",
-      "fingerprint": "203fa458"
     }
   ]
 }
