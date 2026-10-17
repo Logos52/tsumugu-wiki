@@ -35,7 +35,7 @@ These correspond to following parts of the page:
 
 Quartz **components**, like plugins, can take in additional properties as configuration options. If you're familiar with React terminology, you can think of them as Higher-order Components.
 
-See [a list of all the components](component.md) for all available components along with their configuration options. Additionally, Quartz provides several built-in higher-order components for layout composition - see [[layout-components]] for more details.
+See the [feature list](features/index.md) for the components and their configuration options. Quartz also provides several built-in higher-order components for layout composition. See [[layout-components]] for more details.
 
 You can also checkout the guide on [[creating components]] if you're interested in further customizing the behaviour of Quartz.
 
