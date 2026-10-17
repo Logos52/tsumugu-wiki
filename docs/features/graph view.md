@@ -11,7 +11,7 @@ Quartz features a graph-view that can show both a local graph view and a global 
 
 By default, the node radius is proportional to the total number of incoming and outgoing internal links from that file.
 
-Additionally, similar to how browsers highlight visited links a different colour, the graph view will also show nodes that you have visited in a different colour.
+Also, similar to how browsers mark visited links a different colour, the graph view will also show nodes that you have visited in a different colour.
 
 > [!info]
 > Graph View requires the `ContentIndex` emitter plugin to be present in the [[configuration]].

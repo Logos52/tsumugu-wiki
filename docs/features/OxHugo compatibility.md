@@ -26,4 +26,4 @@ Quartz by default doesn't understand `org-roam` files as they aren't Markdown. Y
 
 ## Configuration
 
-This functionality is provided by the [[OxHugoFlavoredMarkdown]] plugin. See the plugin page for customization options.
+The [[OxHugoFlavoredMarkdown]] plugin provides this. See the plugin page for customization options.

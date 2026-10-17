@@ -7,41 +7,6 @@
     },
     {
       "rule": "R16",
-      "file": "CLAUDE.md",
-      "fingerprint": "a9ccb0d"
-    },
-    {
-      "rule": "R16",
-      "file": "content/index.md",
-      "fingerprint": "c95dd54b"
-    },
-    {
-      "rule": "R16",
-      "file": "content/index.md",
-      "fingerprint": "28a020b3"
-    },
-    {
-      "rule": "R16",
-      "file": "content/zh-Hant/index.md",
-      "fingerprint": "25d6764"
-    },
-    {
-      "rule": "R16",
-      "file": "content/zh-Hant/index.md",
-      "fingerprint": "fc2389c1"
-    },
-    {
-      "rule": "R16",
-      "file": "content/zh-Hant/index.md",
-      "fingerprint": "a2636d51"
-    },
-    {
-      "rule": "R16",
-      "file": "content/zh-Hant/index.md",
-      "fingerprint": "324a3dcc"
-    },
-    {
-      "rule": "R16",
       "file": "docs/advanced/architecture.md",
       "fingerprint": "cb3e1f5b"
     },
@@ -142,48 +107,8 @@
     },
     {
       "rule": "R16",
-      "file": "docs/features/Obsidian compatibility.md",
-      "fingerprint": "4781027c"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/Obsidian compatibility.md",
-      "fingerprint": "71b70e58"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/OxHugo compatibility.md",
-      "fingerprint": "7b8a76f6"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/RSS Feed.md",
-      "fingerprint": "9c1ac589"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/Roam Research compatibility.md",
-      "fingerprint": "ac03d7b7"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/callouts.md",
-      "fingerprint": "15aba2cc"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/callouts.md",
-      "fingerprint": "a363da10"
-    },
-    {
-      "rule": "R16",
       "file": "docs/features/comments.md",
       "fingerprint": "de28e4f"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/folder and tag listings.md",
-      "fingerprint": "b3d27ec5"
     },
     {
       "rule": "R16",
@@ -194,26 +119,6 @@
       "rule": "R16",
       "file": "docs/features/full-text search.md",
       "fingerprint": "550194c5"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/graph view.md",
-      "fingerprint": "e64c82b5"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/reader mode.md",
-      "fingerprint": "1ff379c3"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/social images.md",
-      "fingerprint": "15aba2cc"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/social images.md",
-      "fingerprint": "10cce281"
     },
     {
       "rule": "R16",
@@ -232,23 +137,8 @@
     },
     {
       "rule": "R16",
-      "file": "docs/features/wikilinks.md",
-      "fingerprint": "390816e4"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/hosting.md",
-      "fingerprint": "e3bc2b95"
-    },
-    {
-      "rule": "R16",
       "file": "docs/hosting.md",
       "fingerprint": "2e7fcb5a"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/hosting.md",
-      "fingerprint": "f135c316"
     },
     {
       "rule": "R16",
@@ -307,26 +197,6 @@
     },
     {
       "rule": "R16",
-      "file": "docs/plugins/ComponentResources.md",
-      "fingerprint": "15581cf3"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/plugins/ContentIndex.md",
-      "fingerprint": "1daad73b"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/plugins/CreatedModifiedDate.md",
-      "fingerprint": "54ab7ec6"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/plugins/Description.md",
-      "fingerprint": "112a8a01"
-    },
-    {
-      "rule": "R16",
       "file": "docs/plugins/SyntaxHighlighting.md",
       "fingerprint": "b5b4f30e"
     },
@@ -334,11 +204,6 @@
       "rule": "R16",
       "file": "docs/setting up your GitHub repository.md",
       "fingerprint": "57387d3f"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/showcase.md",
-      "fingerprint": "c8efdc84"
     },
     {
       "rule": "R21",

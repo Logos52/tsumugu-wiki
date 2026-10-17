@@ -2,9 +2,9 @@
 title: Wikilinks
 ---
 
-Wikilinks were pioneered by earlier internet wikis to make it easier to write links across pages without needing to write Markdown or HTML links each time.
+Earlier internet wikis pioneered wikilinks to make it easier to write links across pages without needing to write Markdown or HTML links each time.
 
-Quartz supports Wikilinks by default and these links are resolved by Quartz using the [[CrawlLinks]] plugin. See the [Obsidian Help page on Internal Links](https://help.obsidian.md/Linking+notes+and+files/Internal+links) for more information on Wikilink syntax.
+Quartz supports Wikilinks by default. Quartz resolves these links with the [[CrawlLinks]] plugin. See the [Obsidian Help page on Internal Links](https://help.obsidian.md/Linking+notes+and+files/Internal+links) for more information on Wikilink syntax.
 
 This is enabled as a part of [[Obsidian compatibility]] and can be configured and enabled/disabled from that plugin.
 

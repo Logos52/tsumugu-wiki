@@ -6,7 +6,7 @@ A lot of social media platforms can display a rich preview for your website when
 
 Quartz can also dynamically generate and use new cover images for every page to be used in link previews on social media for you.
 
-## Showcase
+## Examples
 
 After enabling the [[CustomOgImages]] emitter plugin, the social media link preview for [[authoring content | Authoring Content]] looks like this:
 
@@ -16,4 +16,4 @@ After enabling the [[CustomOgImages]] emitter plugin, the social media link prev
 
 ## Configuration
 
-This functionality is provided by the [[CustomOgImages]] plugin. See the plugin page for customization options.
+The [[CustomOgImages]] plugin provides this. See the plugin page for customization options.

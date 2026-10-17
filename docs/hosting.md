@@ -154,7 +154,7 @@ Before deploying to Vercel, a `vercel.json` file is required at the root of the 
 > If there is something already hosted on the domain, these steps will not work without replacing the previous content. As a workaround, you could use Next.js rewrites or use the next section to create a subdomain.
 
 1. Update the `baseUrl` in `quartz.config.js` if necessary.
-2. Go to the [Domains - Dashboard](https://vercel.com/dashboard/domains) page in Vercel.
+2. Go to the [Domains dashboard](https://vercel.com/dashboard/domains) page in Vercel.
 3. Connect the domain to Vercel
 4. Press "Add" to connect a custom domain to Vercel.
 5. Select your Quartz repository and press Continue.
@@ -166,7 +166,7 @@ Before deploying to Vercel, a `vercel.json` file is required at the root of the 
 Using `docs.example.com` is an example of a subdomain. They're a simple way of connecting multiple deployments to one domain.
 
 1. Update the `baseUrl` in `quartz.config.js` if necessary.
-2. Ensure your domain has been added to the [Domains - Dashboard](https://vercel.com/dashboard/domains) page in Vercel.
+2. Ensure your domain has been added to the [Domains dashboard](https://vercel.com/dashboard/domains) page in Vercel.
 3. Go to the [Vercel Dashboard](https://vercel.com/dashboard) and select your Quartz project.
 4. Go to the Settings tab and then click Domains in the sidebar
 5. Enter your subdomain into the field and press Add
@@ -223,7 +223,7 @@ pages:
 
 When `.gitlab-ci.yaml` is committed, GitLab will build and deploy the website as a GitLab Page. You can find the url under `Deploy > Pages` in the sidebar.
 
-By default, the page is private and only visible when logged in to a GitLab account with access to the repository but can be opened in the settings under `Deploy` -> `Pages`.
+By default, the page is private and only visible when logged in to a GitLab account with access to the repository. You can open it in the settings under `Deploy`, then `Pages`.
 
 ## Self-Hosting
 
