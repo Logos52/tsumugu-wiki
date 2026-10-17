@@ -1,46 +1,6 @@
 {
   "entries": [
     {
-      "rule": "R1",
-      "file": "index.d.ts",
-      "fingerprint": "6d07ab4e"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.config.ts",
-      "fingerprint": "c03f8f82"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.config.ts",
-      "fingerprint": "904c2c83"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.layout.ts",
-      "fingerprint": "2cc954f4"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.layout.ts",
-      "fingerprint": "fe150b5f"
-    },
-    {
-      "rule": "R1",
-      "file": "quartz.layout.ts",
-      "fingerprint": "5e8b5ab9"
-    },
-    {
-      "rule": "R1",
-      "file": "scripts/wiki_vocab_audio.py",
-      "fingerprint": "f01877ef"
-    },
-    {
-      "rule": "R1",
-      "file": "scripts/wiki_vocab_audio.py",
-      "fingerprint": "ab6eaee1"
-    },
-    {
       "rule": "R2",
       "file": "scripts/migrate_video_bundles.py",
       "fingerprint": "95e22fd4"

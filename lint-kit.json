@@ -18,7 +18,8 @@
     "R5": "error",
     "R8": "error",
     "R23": "error",
-    "R16": "error"
+    "R16": "error",
+    "R1": "error"
   },
   "prose": {
     "allow": []

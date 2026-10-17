@@ -53,7 +53,7 @@ def tsumugu_repo() -> Path:
 
 def ensure_runtime() -> None:
     try:
-        import mlx_whisper  # noqa: F401
+        import mlx_whisper
         return
     except Exception:
         pass
@@ -149,7 +149,7 @@ def _normalizer():
         import opencc
         conv = opencc.OpenCC("t2s").convert
     except Exception:
-        conv = lambda s: s  # noqa: E731
+        conv = lambda s: s
     return lambda s: re.sub(r"[^一-鿿]", "", conv(s or ""))
 
 
