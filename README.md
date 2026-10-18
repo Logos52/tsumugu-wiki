@@ -3,7 +3,7 @@
 A Quartz v4 fork that publishes Traditional Chinese learning material to GitHub Pages at https://logos52.github.io/tsumugu-wiki/. The site home and the zh-Hant landing both redirect to https://logos52.github.io (the vault site). What still lives here: 7 YouTube video reading bundles under content/zh-Hant/sources/videos/, GSM1 and GSM2 course vocabulary at content/zh-Hant/gsm1 and gsm2, 15 pedagogy pages under content/zh-Hant/meta/pedagogy/, 819 mp3 pronunciation clips, and the encoding-dictionary demo at quartz/static/dict-demo/.
 
 - Traditional on the surface; Simplified is stored hidden, never user-facing.
-- Code is Apache-2.0. Content is all rights reserved; no content licence is chosen.
+- Quartz code is MIT (upstream, jackyzha0, see [LICENSE.txt](LICENSE.txt)). Our own content is all rights reserved. No content licence is chosen. Own-content paths are listed in [CONTENT-RIGHTS.md](CONTENT-RIGHTS.md).
 - A paid version may come later; nothing here blocks it.
 - Last real content commit: 2026-06-11. The repo is parked, not dead.
 - content/private/ holds 35 Q&A transcripts. It is gitignored. A dated tarball sits in iCloud Drive under llm-kb-snapshots/.
