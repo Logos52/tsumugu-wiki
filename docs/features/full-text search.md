@@ -17,7 +17,7 @@ This component is also keyboard accessible: Tab and Shift+Tab will cycle forward
 
 ### Indexing Behaviour
 
-By default, it indexes every page on the site with **Markdown syntax removed**. This means link URLs for instance are not indexed.
+By default, it indexes every page on the site with Markdown syntax removed. This means link URLs for instance are not indexed.
 
 It properly tokenizes Chinese, Korean, and Japenese characters and constructs separate indexes for the title, content and tags, weighing title matches above content matches.
 

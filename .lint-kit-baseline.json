@@ -12,28 +12,8 @@
     },
     {
       "rule": "R16",
-      "file": "docs/advanced/architecture.md",
-      "fingerprint": "dc6bccea"
-    },
-    {
-      "rule": "R16",
       "file": "docs/advanced/creating components.md",
       "fingerprint": "666f8334"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/advanced/creating components.md",
-      "fingerprint": "5f0523b1"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/advanced/creating components.md",
-      "fingerprint": "666f8334"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/advanced/creating components.md",
-      "fingerprint": "d1865f37"
     },
     {
       "rule": "R16",
@@ -49,16 +29,6 @@
       "rule": "R16",
       "file": "docs/advanced/making plugins.md",
       "fingerprint": "c462d597"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/advanced/making plugins.md",
-      "fingerprint": "2e898e8f"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/advanced/making plugins.md",
-      "fingerprint": "51b92f5c"
     },
     {
       "rule": "R16",
@@ -97,23 +67,8 @@
     },
     {
       "rule": "R16",
-      "file": "docs/features/Citations.md",
-      "fingerprint": "ec269e02"
-    },
-    {
-      "rule": "R16",
       "file": "docs/features/Mermaid diagrams.md",
       "fingerprint": "114adcd1"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/comments.md",
-      "fingerprint": "de28e4f"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/features/full-text search.md",
-      "fingerprint": "e36b8626"
     },
     {
       "rule": "R16",
@@ -137,11 +92,6 @@
     },
     {
       "rule": "R16",
-      "file": "docs/hosting.md",
-      "fingerprint": "2e7fcb5a"
-    },
-    {
-      "rule": "R16",
       "file": "docs/index.md",
       "fingerprint": "303f74b9"
     },
@@ -149,26 +99,6 @@
       "rule": "R16",
       "file": "docs/index.md",
       "fingerprint": "b3ea6c65"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/index.md",
-      "fingerprint": "ec6eaaa1"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/index.md",
-      "fingerprint": "932b0310"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/index.md",
-      "fingerprint": "932b0310"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/layout.md",
-      "fingerprint": "61c8ace0"
     },
     {
       "rule": "R16",
@@ -187,23 +117,8 @@
     },
     {
       "rule": "R16",
-      "file": "docs/philosophy.md",
-      "fingerprint": "76ab5408"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/philosophy.md",
-      "fingerprint": "dc07b8f7"
-    },
-    {
-      "rule": "R16",
       "file": "docs/plugins/SyntaxHighlighting.md",
       "fingerprint": "b5b4f30e"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/setting up your GitHub repository.md",
-      "fingerprint": "57387d3f"
     },
     {
       "rule": "R21",
@@ -219,11 +134,6 @@
       "rule": "R21",
       "file": ".github/workflows/lint-kit.yml",
       "fingerprint": "159675f8"
-    },
-    {
-      "rule": "R21",
-      "file": "quartz/cli/constants.js",
-      "fingerprint": "d4f8c2aa"
     },
     {
       "rule": "R21",

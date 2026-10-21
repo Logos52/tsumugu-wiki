@@ -16,11 +16,11 @@ Normally on the web, we write layout code using HTML which looks something like 
 
 This piece of HTML represents an article with a leading header that says "An article header" and a paragraph that contains the text "Some content". This is combined with CSS to style the page and JavaScript to add interactivity.
 
-However, HTML doesn't let you create reusable templates. If you wanted to create a new page, you would need to copy and paste the above snippet and edit the header and content yourself. This isn't great if we have a lot of content on our site that shares a lot of similar layout. The smart people who created React also had similar complaints and invented the concept of Components -- JavaScript functions that return JSX -- to solve the code duplication problem.
+However, HTML doesn't let you create reusable templates. If you wanted to create a new page, you would need to copy and paste the above snippet and edit the header and content yourself. This isn't great if we have a lot of content on our site that shares a lot of similar layout. The smart people who created React also had similar complaints and invented the concept of Components, JavaScript functions that return JSX, to solve the code duplication problem.
 
-In effect, components allow you to write a JavaScript function that takes some data and produces HTML as an output. **While Quartz doesn't use React, it uses the same component concept to allow you to easily express layout templates in your Quartz site.**
+In effect, components allow you to write a JavaScript function that takes some data and produces HTML as an output. While Quartz doesn't use React, it uses the same component concept to allow you to easily express layout templates in your Quartz site.
 
-## An Example Component
+## An example component
 
 ### Constructor
 
@@ -82,7 +82,7 @@ export type QuartzComponentProps = {
 
 Quartz components can also define a `.css` property on the actual function component which will get picked up by Quartz. This is expected to be a CSS string which can either be inlined or imported from a `.scss` file.
 
-Note that inlined styles **must** be plain vanilla CSS:
+Note that inlined styles must be plain vanilla CSS:
 
 ```tsx {6-10} title="quartz/components/YourComponent.tsx"
 export default (() => {
