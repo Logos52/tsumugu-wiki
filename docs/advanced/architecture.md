@@ -27,7 +27,7 @@ This question is best answered by tracing what happens when a user (you!) runs `
       3. Parsing has three steps:
          1. Read the file into a [vfile](https://github.com/vfile/vfile).
          2. Applied plugin-defined text transformations over the content.
-         3. Slugify the file path and store it in the data for the file. See the page on [[paths]] for more details about how path logic works in Quartz (spoiler: its complicated).
+         3. Slugify the file path and store it in the data for the file. See the page on [[paths]] for more details about how path logic works in Quartz (spoiler, its complicated).
          4. Markdown parsing using [remark-parse](https://www.npmjs.com/package/remark-parse) (text to [mdast](https://github.com/syntax-tree/mdast)).
          5. Apply plugin-defined Markdown-to-Markdown transformations.
          6. Convert Markdown into HTML using [remark-rehype](https://github.com/remarkjs/remark-rehype) ([mdast](https://github.com/syntax-tree/mdast) to [hast](https://github.com/syntax-tree/hast)).

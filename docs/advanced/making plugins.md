@@ -33,7 +33,7 @@ The following sections will go into detail for what methods can be implemented f
 
 ## Transformers
 
-Transformers **map** over content, taking a Markdown file and outputting modified content or adding metadata to the file itself.
+Transformers map over content, taking a Markdown file and outputting modified content or adding metadata to the file itself.
 
 ```ts
 export type QuartzTransformerPluginInstance = {
@@ -176,11 +176,11 @@ export const TextTransforms: QuartzTransformerPlugin = () => {
 
 All transformer plugins can be found under `quartz/plugins/transformers`. If you decide to write your own transformer plugin, don't forget to re-export it under `quartz/plugins/transformers/index.ts`
 
-A parting word: transformer plugins are quite complex so don't worry if you don't get them right away. Take a look at the built in transformers and see how they operate over content to get a better sense for how to accomplish what you are trying to do.
+A parting word. Transformer plugins are quite complex so don't worry if you don't get them right away. Take a look at the built in transformers and see how they operate over content to get a better sense for how to accomplish what you are trying to do.
 
 ## Filters
 
-Filters **filter** content, taking the output of all the transformers and determining what files to actually keep and what to discard.
+Filters filter content, taking the output of all the transformers and determining what files to actually keep and what to discard.
 
 ```ts
 export type QuartzFilterPlugin<Options extends OptionType = undefined> = (
@@ -212,7 +212,7 @@ export const RemoveDrafts: QuartzFilterPlugin<{}> = () => ({
 
 ## Emitters
 
-Emitters **reduce** over content, taking in a list of all the transformed and filtered content and creating output files.
+Emitters reduce over content, taking in a list of all the transformed and filtered content and creating output files.
 
 ```ts
 export type QuartzEmitterPlugin<Options extends OptionType = undefined> = (
