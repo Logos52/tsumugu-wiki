@@ -18,50 +18,25 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Detect lint-kit deploy key
-        id: deploy-key
+      - name: Require lint-kit deploy key
         env:
           LINT_KIT_DEPLOY_KEY: ${{ secrets.LINT_KIT_DEPLOY_KEY }}
         run: |
-          if [ -n "${LINT_KIT_DEPLOY_KEY}" ]; then
-            echo "available=true" >> "$GITHUB_OUTPUT"
-            exit 0
+          if [ -z "${LINT_KIT_DEPLOY_KEY}" ]; then
+            echo "::error::LINT_KIT_DEPLOY_KEY is not set as a Dependabot secret (repo Settings > Secrets > Dependabot)"
+            exit 1
           fi
-          echo "available=false" >> "$GITHUB_OUTPUT"
-          if [ "$GITHUB_ACTOR" = "dependabot[bot]" ]; then
-            echo "LINT_KIT_DEPLOY_KEY is empty on this Dependabot run."
-            echo "Dependabot workflows receive Dependabot secrets, not Actions secrets, so the lint-kit deploy key is not available."
-            echo "Skipping kit check. Pushes and pull requests from any other actor still run it and fail when the key is missing."
-            {
-              echo "## kit check"
-              echo
-              echo "Skipped: \`dependabot[bot]\` triggered this run and \`LINT_KIT_DEPLOY_KEY\` is empty."
-              echo
-              echo "Dependabot does not receive Actions secrets. The private lint-kit repo is cloned with that deploy key, so \`kit check\` cannot run here."
-              echo
-              echo "Any other actor still runs \`kit check\`, and a missing key fails the job."
-            } >> "$GITHUB_STEP_SUMMARY"
-            echo "::notice title=kit-check skipped::Dependabot run has no LINT_KIT_DEPLOY_KEY (Actions secrets are not passed to Dependabot). kit check was not run."
-            exit 0
-          fi
-          echo "LINT_KIT_DEPLOY_KEY is empty, so kit-check cannot clone the private lint-kit repo."
-          echo "This job only skips that case for dependabot[bot]. Other actors fail closed."
-          exit 1
       - uses: webfactory/ssh-agent@v0.10.0
-        if: steps.deploy-key.outputs.available == 'true'
         with:
           ssh-private-key: ${{ secrets.LINT_KIT_DEPLOY_KEY }}
       - name: Install dependencies
-        if: steps.deploy-key.outputs.available == 'true'
         run: npm ci
       - name: Install lint-kit
-        if: steps.deploy-key.outputs.available == 'true'
         run: |
           npm install --prefix "$RUNNER_TEMP/lint-kit" --install-strategy=nested --no-save --no-package-lock --frozen-lockfile "git+ssh://git@github.com/Logos52/lint-kit.git#5294e51e37a6b95e8c8613f5956d240ed1f4bd62"
           npm --prefix "$RUNNER_TEMP/lint-kit/node_modules/lint-kit" run build
           python -m pip install -r "$RUNNER_TEMP/lint-kit/node_modules/lint-kit/requirements.txt"
       - name: Check
-        if: steps.deploy-key.outputs.available == 'true'
         run: |
           ln -sfn "$RUNNER_TEMP/lint-kit/node_modules/.bin/kit" node_modules/.bin/kit
           set +e
