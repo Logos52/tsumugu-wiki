@@ -11,14 +11,22 @@ jobs:
   kit-check:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: 22
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - uses: webfactory/ssh-agent@v0.9.0
+      - name: Require lint-kit deploy key
+        env:
+          LINT_KIT_DEPLOY_KEY: ${{ secrets.LINT_KIT_DEPLOY_KEY }}
+        run: |
+          if [ -z "${LINT_KIT_DEPLOY_KEY}" ]; then
+            echo "::error::LINT_KIT_DEPLOY_KEY is not set as a Dependabot secret (repo Settings > Secrets > Dependabot)"
+            exit 1
+          fi
+      - uses: webfactory/ssh-agent@v0.10.0
         with:
           ssh-private-key: ${{ secrets.LINT_KIT_DEPLOY_KEY }}
       - name: Install dependencies
