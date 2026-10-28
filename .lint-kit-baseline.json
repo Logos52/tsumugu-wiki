@@ -1,14 +1,15 @@
 {
+  "pin": "11b2880e890ba1525775843e3f6027e729afbe25",
   "entries": [
-    {
-      "rule": "R5",
-      "file": "tsconfig.json",
-      "fingerprint": "fe0c521a"
-    },
     {
       "rule": "R16",
       "file": "docs/advanced/architecture.md",
       "fingerprint": "cb3e1f5b"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/advanced/creating components.md",
+      "fingerprint": "13b023ec"
     },
     {
       "rule": "R16",
@@ -22,18 +23,13 @@
     },
     {
       "rule": "R16",
-      "file": "docs/advanced/creating components.md",
-      "fingerprint": "13b023ec"
+      "file": "docs/advanced/making plugins.md",
+      "fingerprint": "31c09c8e"
     },
     {
       "rule": "R16",
       "file": "docs/advanced/making plugins.md",
       "fingerprint": "c462d597"
-    },
-    {
-      "rule": "R16",
-      "file": "docs/advanced/making plugins.md",
-      "fingerprint": "31c09c8e"
     },
     {
       "rule": "R16",
@@ -43,12 +39,12 @@
     {
       "rule": "R16",
       "file": "docs/authoring content.md",
-      "fingerprint": "f23a25d8"
+      "fingerprint": "dd724535"
     },
     {
       "rule": "R16",
       "file": "docs/authoring content.md",
-      "fingerprint": "dd724535"
+      "fingerprint": "f23a25d8"
     },
     {
       "rule": "R16",
@@ -78,12 +74,12 @@
     {
       "rule": "R16",
       "file": "docs/features/syntax highlighting.md",
-      "fingerprint": "a35a9759"
+      "fingerprint": "108a445b"
     },
     {
       "rule": "R16",
       "file": "docs/features/syntax highlighting.md",
-      "fingerprint": "108a445b"
+      "fingerprint": "a35a9759"
     },
     {
       "rule": "R16",
@@ -103,6 +99,11 @@
     {
       "rule": "R16",
       "file": "docs/migrating from Quartz 3.md",
+      "fingerprint": "2581a9c8"
+    },
+    {
+      "rule": "R16",
+      "file": "docs/migrating from Quartz 3.md",
       "fingerprint": "2810f4dd"
     },
     {
@@ -112,18 +113,8 @@
     },
     {
       "rule": "R16",
-      "file": "docs/migrating from Quartz 3.md",
-      "fingerprint": "2581a9c8"
-    },
-    {
-      "rule": "R16",
       "file": "docs/plugins/SyntaxHighlighting.md",
       "fingerprint": "b5b4f30e"
-    },
-    {
-      "rule": "R21",
-      "file": "package.json",
-      "fingerprint": "fe0c521a"
     },
     {
       "rule": "R21",
@@ -137,13 +128,58 @@
     },
     {
       "rule": "R21",
+      "file": "package.json",
+      "fingerprint": "fe0c521a"
+    },
+    {
+      "rule": "R21",
       "file": "quartz/util/path.js",
       "fingerprint": "6eccc2ef"
     },
     {
-      "rule": "R0",
-      "file": "eslint:repo",
-      "fingerprint": "1e22fb30"
+      "rule": "R3",
+      "file": "globals.d.ts",
+      "fingerprint": "be58a788"
+    },
+    {
+      "rule": "R3",
+      "file": "globals.d.ts",
+      "fingerprint": "fca23555"
+    },
+    {
+      "rule": "R3",
+      "file": "index.d.ts",
+      "fingerprint": "4fa2737c"
+    },
+    {
+      "rule": "R3",
+      "file": "index.d.ts",
+      "fingerprint": "74903ae8"
+    },
+    {
+      "rule": "R3",
+      "file": "index.d.ts",
+      "fingerprint": "8c50d922"
+    },
+    {
+      "rule": "R3",
+      "file": "index.d.ts",
+      "fingerprint": "abbb3309"
+    },
+    {
+      "rule": "R3",
+      "file": "index.d.ts",
+      "fingerprint": "c4c816c"
+    },
+    {
+      "rule": "R4",
+      "file": "globals.d.ts",
+      "fingerprint": "405d9d9c"
+    },
+    {
+      "rule": "R5",
+      "file": "tsconfig.json",
+      "fingerprint": "fe0c521a"
     }
   ]
 }
